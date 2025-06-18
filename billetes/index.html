@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nombre del Billete</title>
+  <title>Billete de 2 Pesos - 1866</title>
   <style>
     body {
       margin: 0;
@@ -21,9 +21,70 @@
       font-weight: bold;
     }
 
+    /* Menú desplegable */
+    nav {
+      background-color: #333;
+    }
+
+    .menu-toggle {
+      display: none;
+      padding: 1rem;
+      cursor: pointer;
+      color: #fff;
+      background-color: #333;
+      text-align: center;
+    }
+
+    .menu-toggle:hover {
+      background-color: #444;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #333;
+    }
+
+    nav ul li {
+      margin: 0.5rem 1rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+
+    /* Estilo del breadcrumb */
+    .breadcrumb {
+      max-width: 800px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .breadcrumb a {
+      color: #004080;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
     .container {
       max-width: 800px;
-      margin: 2rem auto;
+      margin: 1rem auto 2rem;
       padding: 1rem;
       background: #fff;
       border-radius: 8px;
@@ -92,25 +153,69 @@
       display: flex;
     }
 
-    @media (max-width: 600px) {
+    /* Responsive */
+    @media (max-width: 768px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul.active {
+        display: flex;
+      }
+
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+
       h1 {
         font-size: 1.4rem;
       }
+
       ul.details li strong {
         width: 100px;
       }
     }
   </style>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('main-menu');
+      menu.classList.toggle('active');
+    }
+  </script>
 </head>
 <body>
   <header>Billetes Mexicanos</header>
-  
+
+  <!-- Menú desplegable -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰ Menú</div>
+  <nav>
+    <ul id="main-menu">
+      <li><a href="/">Inicio</a></li>
+      <li><a href="/billetes/">Imperio Mexicano</a></li>
+      <li><a href="/revolucion/">Revolución</a></li>
+      <li><a href="/modernos/">Modernos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Breadcrumbs -->
+  <div class="breadcrumb">
+    <a href="/">Inicio</a> &raquo; 
+    <a href="/billetes/">Imperio Mexicano</a> &raquo; 
+    Billete de 2 Pesos
+  </div>
+
   <div class="container">
     <h1>Billete de 2 Pesos - Año 1866</h1>
     
     <div class="images">
-      <a href="#img1"><img src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp" alt="Billete anverso" /></a>
-      <a href="#img2"><img src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp" alt="Billete reverso" /></a>
+      <a href="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp"><img src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp" alt="Billete anverso" /></a>
+      <a href="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp"><img src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp" alt="Billete reverso" /></a>
     </div>
 
     <!-- Lightbox -->
