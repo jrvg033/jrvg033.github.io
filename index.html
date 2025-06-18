@@ -2,10 +2,106 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi sitio web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Billetes Mexicanos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2e3d49;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #1c262f;
+      padding: 0.5em;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      padding: 0.5em;
+    }
+    nav a:hover {
+      background-color: #334756;
+      border-radius: 4px;
+    }
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .galeria img {
+      width: 100%;
+      max-width: 300px;
+      margin: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    footer {
+      background-color: #2e3d49;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
 </head>
 <body>
-  <h1>¡Hola, soy JRVG!</h1>
-  <p>Este sitio fue creado con GitHub Pages.</p>
+
+<header>
+  <h1>Billetes Mexicanos</h1>
+  <p>Explora la historia y belleza de nuestros billetes antiguos</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#acerca">Acerca de</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenido</h2>
+  <p>Este es un sitio dedicado a la colección, estudio e historia de los billetes mexicanos. Aquí podrás encontrar información detallada, imágenes de alta calidad y datos relevantes sobre cada billete emitido en distintas épocas.</p>
+</section>
+
+<section id="acerca">
+  <h2>Acerca de este proyecto</h2>
+  <p>El objetivo de este sitio es compartir el valor histórico y artístico de los billetes de México, desde el siglo XIX hasta nuestros días. Nos enfocamos en mostrar detalles, variantes, firmas, y rarezas que interesan tanto a coleccionistas como a investigadores.</p>
+</section>
+
+<section id="galeria">
+  <h2>Galería de billetes</h2>
+  <div class="galeria">
+    <img src="https://via.placeholder.com/300x150?text=Billete+1" alt="Billete 1">
+    <img src="https://via.placeholder.com/300x150?text=Billete+2" alt="Billete 2">
+    <img src="https://via.placeholder.com/300x150?text=Billete+3" alt="Billete 3">
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Si deseas compartir información, preguntar o colaborar, puedes escribirme a: <a href="mailto:contacto@billetesmexicanos.com">contacto@billetesmexicanos.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Billetes Mexicanos. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
