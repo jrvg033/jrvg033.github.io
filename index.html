@@ -3,242 +3,198 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Billete de 1 Peso del Imperio Mexicano (1823), emitido bajo Iturbide. Pieza histórica clave en la numismática de México.">
   <title>1 Peso - Imperio Mexicano (1823)</title>
+  <meta name="description" content="Información detallada sobre el billete de 1 Peso emitido por el Imperio Mexicano en 1823, incluyendo variantes, imágenes y contexto histórico.">
+  <meta name="keywords" content="1 peso 1823, billete Iturbide, Imperio Mexicano, billete histórico, numismática México">
+  <meta name="author" content="Billetes Mexicanos">
+  <meta property="og:title" content="1 Peso - Imperio Mexicano (1823)">
+  <meta property="og:description" content="Descubre la historia y variantes del billete de 1 Peso emitido por el Imperio Mexicano en 1823.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
   <style>
     body {
       background-color: #556B2F;
+      color: #fff;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      color: #fff;
     }
-
     .container {
-      padding: 10px;
+      padding: 15px;
       max-width: 1000px;
       margin: auto;
     }
-
     .header-title {
       font-size: 2em;
       font-weight: bold;
-      margin-bottom: 20px;
+      color: #dcdcdc;
     }
-
     .info-table {
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 20px;
     }
-
     .info-table td {
       padding: 10px;
       vertical-align: top;
     }
-
     .label {
       font-weight: bold;
       width: 30%;
     }
-
     .images-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
     }
-
     .images-grid img {
-      width: 300px;
+      width: 250px;
       height: auto;
-      border: 2px solid #ccc;
       cursor: pointer;
+      border: 2px solid #999;
+      border-radius: 4px;
+      transition: transform 0.2s ease;
     }
-
+    .images-grid img:hover {
+      transform: scale(1.03);
+    }
     .note-title {
-      font-size: 1.5em;
+      font-size: 1.3em;
       font-weight: bold;
       margin-top: 10px;
+      color: #e0ffe0;
     }
-
     hr {
       border: none;
-      height: 5px;
-      background-color: #3e4e24;
+      height: 4px;
+      background-color: #a3c293;
       margin: 20px 0;
     }
-
     .footer-links {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      background-color: #8A9A5B;
+      background-color: #3e4e2f;
       padding: 10px;
+      border-radius: 5px;
     }
-
     .footer-links a {
       text-decoration: none;
-      color: white;
+      color: #dcdcdc;
       font-style: italic;
+      padding: 5px;
     }
-
     @media (max-width: 600px) {
       .label {
         width: 100%;
         display: block;
       }
-
       .images-grid {
         flex-direction: column;
         align-items: center;
       }
+      .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
     }
-
-    /* Lightbox */
     .lightbox {
+      display: none;
       position: fixed;
-      top: 0;
+      z-index: 1000;
       left: 0;
+      top: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-      display: none;
-      justify-content: center;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.9);
       align-items: center;
-      z-index: 999;
+      justify-content: center;
     }
-
+    .lightbox.active {
+      display: flex;
+    }
     .lightbox img {
       max-width: 90%;
-      max-height: 90%;
+      max-height: 80%;
     }
-
-    .lightbox .close,
-    .lightbox .prev,
-    .lightbox .next {
+    .lightbox .close, .lightbox .prev, .lightbox .next {
       position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
       color: white;
-      font-size: 2em;
-      background-color: rgba(0,0,0,0.5);
+      font-size: 2rem;
       padding: 10px;
       cursor: pointer;
+      user-select: none;
     }
-
     .lightbox .close {
-      top: 10px;
-      right: 20px;
+      top: 20px;
+      right: 30px;
+      transform: none;
     }
-
-    .lightbox .prev {
-      left: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    .lightbox .next {
-      right: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+    .lightbox .prev { left: 20px; }
+    .lightbox .next { right: 20px; }
   </style>
 </head>
 <body>
-
 <div class="container">
-  <div class="header">
-    <div class="header-title">1 Peso - Imperio Mexicano (1823)</div>
-  </div>
-
+  <div class="header-title">1 Peso - Imperio Mexicano (1823)</div>
   <table class="info-table">
     <tr><td class="label">Valor</td><td>1 Peso</td></tr>
     <tr><td class="label">Emisor</td><td>Imperio Mexicano de Iturbide</td></tr>
     <tr><td class="label">Fecha</td><td>01.12.1822 / 06.02.1823</td></tr>
   </table>
-
   <hr>
-
-  <!-- Imagenes -->
+  <!-- Secciones con imágenes -->
   <div class="section">
     <div class="images-grid">
-      <img src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webp" alt="Frente 1a">
-      <img src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/5%20pesos%20banco%20campeche%201903%20anverso.webpp" alt="Reverso 1a">
-      <img src="MEX0001bo.jpg" alt="Frente 1b">
-      <img src="MEX0001br.jpg" alt="Reverso 1b">
-      <img src="MEX0001co.jpg" alt="Frente 1c">
-      <img src="MEX0001cr.jpg" alt="Reverso 1c">
+      <img src="img1.jpg" alt="Frente 1a" onclick="openLightbox(0)">
+      <img src="img2.jpg" alt="Reverso 1a" onclick="openLightbox(1)">
     </div>
-    <p class="note-title">Diferentes variantes del billete de 1 Peso</p>
+    <p class="note-title">1a - issued note</p>
   </div>
-
-  <!-- Lightbox -->
-  <div class="lightbox" id="lightbox">
-    <span class="close" onclick="closeLightbox()">&times;</span>
-    <span class="prev" onclick="prevImage()">&#10094;</span>
-    <img id="lightbox-img" src="" alt="Zoom">
-    <span class="next" onclick="nextImage()">&#10095;</span>
-  </div>
-
-  <section class="section">
-    <h2 style="color:#e0ffe0;">Historia del billete de 1 Peso - Imperio Mexicano (1823)</h2>
-    <p>
-      El billete de <strong>1 Peso del Imperio Mexicano emitido en 1823</strong> es una pieza emblemática de la historia monetaria de México. Corresponde al periodo del Primer Imperio bajo el mando de Agustín de Iturbide, uno de los momentos más singulares en la construcción del Estado mexicano tras la independencia.
-    </p>
-    <p>
-      Esta emisión es considerada una de las más antiguas del país y resulta de gran valor para coleccionistas y estudiosos de la <strong>numismática mexicana</strong>. Las variantes disponibles —como las versiones canceladas, sobreimpresas o manuscritas— reflejan las distintas etapas administrativas y geográficas por las que pasó este billete, desde Oaxaca hasta León.
-    </p>
-    <p>
-      Por su diseño rudimentario, papel sencillo y cancelaciones a mano, el <strong>billete de 1 peso de 1823</strong> permite apreciar la transición entre una economía basada en monedas coloniales hacia un sistema monetario propio del México independiente.
-    </p>
-    <p style="font-style: italic; color: #dcebd3;">
-      Actualmente, estos billetes son altamente valorados en el mercado de billetes antiguos debido a su rareza y a su importancia histórica.
-    </p>
-  </section>
-
+  <!-- Aquí agregar más secciones si es necesario -->
   <hr>
-
   <div class="footer-links">
-    <a href="MEX-EMP.htm">BACK TO IMPERIO MEXICANO</a>
-    <a href="../MEX.htm">BACK TO MEXICO</a>
-    <a href="../../../../continentcover/amecover.htm">BACK TO AMERICA</a>
-    <a href="http://www.banknote.ws">BACK TO INDEX</a>
+    <a href="MEX-EMP.htm">VOLVER AL IMPERIO MEXICANO</a>
+    <a href="../MEX.htm">VOLVER A MÉXICO</a>
+    <a href="../../../../continentcover/amecover.htm">VOLVER A AMÉRICA</a>
+    <a href="http://www.banknote.ws">ÍNDICE PRINCIPAL</a>
   </div>
 </div>
-
+<!-- Lightbox HTML -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+  <span class="close" onclick="closeLightbox(event)">&times;</span>
+  <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" src="" alt="Imagen">
+  <span class="next" onclick="changeImage(1)">&#10095;</span>
+</div>
 <script>
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  const imgs = document.querySelectorAll('.images-grid img');
-  let currentIndex = 0;
-
-  imgs.forEach((img, index) => {
-    img.addEventListener('click', () => {
-      lightbox.style.display = 'flex';
-      lightboxImg.src = img.src;
-      currentIndex = index;
-    });
-  });
-
-  function closeLightbox() {
-    lightbox.style.display = 'none';
+  const images = [
+    "img1.jpg",
+    "img2.jpg"
+    // agregar más rutas aquí
+  ];
+  let current = 0;
+  function openLightbox(index) {
+    current = index;
+    document.getElementById("lightbox-img").src = images[current];
+    document.getElementById("lightbox").classList.add("active");
   }
-
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + imgs.length) % imgs.length;
-    lightboxImg.src = imgs[currentIndex].src;
-  }
-
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % imgs.length;
-    lightboxImg.src = imgs[currentIndex].src;
-  }
-
-  lightbox.addEventListener('click', function(e) {
-    if (e.target === lightbox) {
-      closeLightbox();
+  function closeLightbox(event) {
+    if (!event.target.closest('img')) {
+      document.getElementById("lightbox").classList.remove("active");
     }
-  });
+  }
+  function changeImage(direction) {
+    current = (current + direction + images.length) % images.length;
+    document.getElementById("lightbox-img").src = images[current];
+  }
 </script>
-
 </body>
 </html>
