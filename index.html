@@ -1,166 +1,175 @@
-<html><head><meta http-equiv="Content-Language" content="de"><meta name="GENERATOR" content="Microsoft FrontPage 5.0"><meta name="ProgId" content="FrontPage.Editor.Document">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P-1</title>
+  <style>
+    body {
+      background-color: #CECECE;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-<title>P-1</title>
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=dx5stxZ8GK4xLCCvzW8O_x5RfyPOXrtU7mbxFlx8CgNBVqrurdSysLVnH5Jn0mjN2-LpeGjOTr__h4tEsrnBSfiKgx6UVsqz-cYpYXbehv3H7dEAYnoT4-v7xL1U0P7c" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9iYW5rbm90ZS53cy9DT0xMRUNUSU9OL2NvdW50cmllcy9BTUUvTUVYL01FWC1HRU5FUkFML01FWDAwMDEuaHRt"/></head><body bgcolor="#CECECE">
-<div align="left">
-  <table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
+    .container {
+      padding: 10px;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-width="97%" height="83">  
+    .header, .section, .footer {
+      background-color: #CECECE;
+      margin-bottom: 20px;
+    }
 
-<tr>
-    <td width="10%" align="center" bgcolor="#CECECE" height="32">
-    <p align="left"><b><font face="Arial" size="6">1</font></b></td>
-    <td width="129%" align="center" bgcolor="#CECECE" height="32" valign="top">
-    <p align="left"><font size="6">MEXICO</font></td>
+    .header-title {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .info-table td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    .label {
+      font-weight: bold;
+      width: 30%;
+    }
+
+    .images-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .images-grid img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #999;
+    }
+
+    .note-title {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    hr {
+      border: none;
+      height: 5px;
+      background-color: #0000FF;
+      margin: 20px 0;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: black;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      .label {
+        width: 100%;
+        display: block;
+      }
+
+      .images-grid {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Encabezado -->
+  <div class="header">
+    <div class="header-title">1 MEXICO</div>
+  </div>
+
+  <!-- Información principal -->
+  <table class="info-table">
+    <tr>
+      <td class="label">Value</td>
+      <td>1 Peso</td>
     </tr>
-<tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="9"><b>
-    <font face="Arial">Value</font></b></td>
-    <td width="129%" align="center" bgcolor="#FFFFD7" height="1">
-    <p align="left">
-      <font face="Times New Roman" size="5">1 Peso</font></td>
+    <tr>
+      <td class="label">Issued by</td>
+      <td>Imperio Mexicano</td>
     </tr>
-<tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="20"><b>
-    <font face="Arial">Issued by</font></b></td>
-    <td width="129%" align="center" bgcolor="#FFFFD7" height="20">
-    <p align="left"><font face="Times New Roman" size="4">Imperio Mexicano</font></td>
-    </tr>
-<tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="3" valign="top"><b>
-    <font face="Arial">Date</font></b></td>
-    <td width="129%" align="center" bgcolor="#FFFFD7" height="3">
-    <p align="left">
-    <font size="4">L. 20.12.1822 / issued 01.01.1823</font></td>
+    <tr>
+      <td class="label">Date</td>
+      <td>L. 20.12.1822 / issued 01.01.1823</td>
     </tr>
   </table>
+
+  <hr>
+
+  <!-- Sección 1a -->
+  <div class="section">
+    <div class="images-grid">
+      <img src="MEX0001ao.jpg" alt="Frente 1a">
+      <img src="MEX0001ar.jpg" alt="Reverso 1a">
+    </div>
+    <p class="note-title">1a - issued note</p>
+  </div>
+
+  <hr>
+
+  <!-- Sección 1b -->
+  <div class="section">
+    <div class="images-grid">
+      <img src="MEX0001bo.jpg" alt="Frente 1b">
+      <img src="MEX0001br.jpg" alt="Reverso 1b">
+    </div>
+    <p class="note-title">1b - cut cancelled</p>
+  </div>
+
+  <hr>
+
+  <!-- Sección 1c -->
+  <div class="section">
+    <div class="images-grid">
+      <img src="MEX0001co.jpg" alt="Frente 1c">
+      <img src="MEX0001cr.jpg" alt="Reverso 1c">
+    </div>
+    <p class="note-title">1c - handwritten cancellation on back: <br>
+    "Ynutilizado, Oaxaca 16.05.1825"</p>
+  </div>
+
+  <hr>
+
+  <!-- Sección 1d -->
+  <div class="section">
+    <p class="note-title">1d - red overprint "LEÓN" on front</p>
+  </div>
+
+  <hr>
+
+  <!-- Enlaces de navegación -->
+  <div class="footer-links">
+    <a href="MEX-EMP.htm">BACK TO IMPERIO MEXICANO</a>
+    <a href="../MEX.htm">BACK TO MEXICO</a>
+    <a href="../../../../continentcover/amecover.htm">BACK TO AMERICA</a>
+    <a href="http://www.banknote.ws">BACK TO INDEX</a>
+  </div>
 </div>
-<hr color="#0000FF" size="5">
-
-<table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="85%" height="87">  
-
-<tr><td width="50%" height="130">
-  <p align="center">
-  <img border="0" src="MEX0001ao.jpg" width="600" height="418"></td>
-  <td width="50%" height="130">
-  <p align="center">
-  <img border="0" src="MEX0001ar.jpg" width="600" height="418"></td></tr>
-
-<tr>
-  <td width="50%" height="43">
-  <p align="center">
-  <font face="Times New Roman" size="4">Arms</font></td>
-  <td width="50%" height="43">
-  <p align="center">
-  &nbsp;</td>
-</tr>
-</table>
-
-  <table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="97%" height="32">  
-
-  <tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="3"><b>
-    <font face="Arial" size="5">1a</font></b></td>
-    <td width="129%" align="center" height="3" bgcolor="#FFFFFF">
-    <p align="left"><font face="Times New Roman" size="4">issued note</font></td>
-    </tr>
-  </table>
-
-<hr color="#0000FF" size="5">
-
-<table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="85%" height="87">  
-
-<tr><td width="50%" height="130">
-  <p align="center">
-  <a name="1b">
-  <img border="0" src="MEX0001bo.jpg" width="600" height="418"></a></td>
-  <td width="50%" height="130">
-  <p align="center">
-  <img border="0" src="MEX0001br.jpg" width="600" height="418"></td></tr>
-
-</table>
-
-  <table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="97%" height="32">  
-
-  <tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="3"><b>
-    <font face="Arial" size="5">1b</font></b></td>
-    <td width="129%" align="center" height="3" bgcolor="#FFFFFF">
-    <p align="left"><font face="Times New Roman" size="4">cut cancelled</font></td>
-    </tr>
-  </table>
-
-<hr color="#0000FF" size="5">
-
-<table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="85%" height="87">  
-
-<tr><td width="50%" height="130">
-  <p align="center">
-  <a name="1c">
-  <img border="0" src="MEX0001co.jpg" width="600" height="418"></a></td>
-  <td width="50%" height="130">
-  <p align="center">
-  <img border="0" src="MEX0001cr.jpg" width="600" height="418"></td></tr>
-
-</table>
-
-  <table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="97%" height="32">  
-
-  <tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="3"><b>
-    <font face="Arial" size="5">1c</font></b></td>
-    <td width="129%" align="center" height="3" bgcolor="#FFFFFF">
-    <p align="left"><font face="Times New Roman" size="4">handwritten 
-    cancellation on back:<br>
-    &quot;Ynutilizado, Oaxaca 16.05.1825)</font></td>
-    </tr>
-  </table>
-
-<hr color="#0000FF" size="5">
-
-  <table border="0" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" 
-
-width="97%" height="32">  
-
-  <tr>
-    <td width="10%" align="left" bgcolor="#CECECE" height="3"><b>
-    <font face="Arial" size="5">1d</font></b></td>
-    <td width="129%" align="center" height="3" bgcolor="#FFFFFF">
-    <p align="left"><font face="Times New Roman" size="4">red overprint &quot;LEÓN&quot; 
-    on front</font></td>
-    </tr>
-  </table>
-
-<hr color="#0000FF" size="5">
-
-<table border="1" cellpadding="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#CECECE" width="100%">
-  <tr>
-    <td width="25%" align="center" bordercolor="#CECECE"><font face="Arial" size="4"><i>
-    <a href="MEX-EMP.htm">BACK TO <span lang="en-us">IMPERIO MEXICANO</span></a></i></font></td>
-    <td width="25%" align="center" bordercolor="#CECECE"><font face="Arial" size="4"><i>
-    <a href="../MEX.htm">BACK TO MEXICO</a></i></font></td>
-    <td width="25%" align="center" bordercolor="#CECECE">
-<font face="Arial" size="4"><i>
-<a href="../../../../continentcover/amecover.htm">BACK TO AMERICA</a></i></font></td>
-    <td width="25%" align="center" bordercolor="#CECECE">
-<font face="Arial" size="4"><i><a href="http://www.banknote.ws">BACK TO INDEX</a></i></font></td>
-  </tr>
-</table>
-
-<br>
 
 </body>
-
 </html>
