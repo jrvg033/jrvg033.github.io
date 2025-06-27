@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+  <html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#556B2F">
+  <meta name="robots" content="index, follow">
+  
+  <!-- SEO -->
+    <title>Catálogo de Billetes Mexicanos</title>
+    <meta name="description" content="Explora la colección visual de billetes históricos de México por épocas, valores y variantes. Ideal para coleccionistas y entusiastas de la numismática.">
+    <meta name="author" content="Billetes Mexicanos">
+    <link rel="icon" type="image/png" href="/imagenes/favicon.png">
+    <link rel="apple-touch-icon" href="/imagenes/favicon.png">
+
+
+  <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Catálogo de Billetes Mexicanos">
+    <meta property="og:description" content="Explora la colección visual de billetes históricos por épocas y variantes.">
+    <meta property="og:image" content="/imagenes/primeros-billetes-mexico.webp">  <!-- URL COMPLETA -->
+    <meta property="og:url" content="https://billetesmexicanos.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+<!-- ESTILOS -->
+    <link rel="stylesheet" href="/css/home.css">
+
+
+ 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Billetes del Imperio Mexicano (1823)",
+  "description": "Catálogo visual de los billetes emitidos durante el Imperio Mexicano de 1823.",
+  "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/",
+  "mainEntity": {
+    "@type": "ImageGallery",
+    "name": "Galería de billetes del Imperio Mexicano",
+    "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/"
+  }
+}
+</script>
+
+
+</head>
+
+<body>
+  <!-- MENU -->
+<nav class="menu">
+    <a href="/" style="margin: 0 10px; color: #fff; text-decoration: none;">Inicio</a>
+    <a href="/primeros-billetes/" style="margin: 0 10px; color: #fff; text-decoration: none;">Primeros Billetes</a>
+    <a href="/bancos-comerciales/" style="margin: 0 10px; color: #fff; text-decoration: none;">Bancos Comerciales</a>
+    <a href="/revolucion-mexicana/" style="margin: 0 10px; color: #fff; text-decoration: none;">Billetes Revolución</a>
+    <a href="/banco-mexico/" style="margin: 0 10px; color: #fff; text-decoration: none;">Banco de México</a>
+    </nav>
+
+ <main class="container">
+
+  <!-- TITULO -->
+    <h1 class="header-title">Catálogo de Billetes Mexicanos</h1>
+    <section aria-label="Descripción general del catálogo" style="text-align: center; margin-bottom: 20px;">
+    <p>Explora la historia del papel moneda en México desde sus orígenes hasta las emisiones contemporáneas. Este catálogo visual te guía por distintas épocas y variantes.</p>
+    </section>
+  <hr>
+
+  <!-- IMAGENES -->
+    <section class="images-grid" aria-label="Categorías del catálogo de billetes">
+
+      <!-- Imagen 2 -->
+      <a href="/bancos-comerciales/">
+      <img loading="lazy" src="/imagenes/billetes-bancos-comerciales-mexico.webp" alt="billetes emitidos por bancos comerciales en mexico durante el porfiriato">
+      <div class="caption">Bancos Comerciales</div>
+      </a>
+
+      <!-- Imagen 2 -->
+      <a href="/bancos-comerciales/">
+      <img loading="lazy" src="/imagenes/billetes-bancos-comerciales-mexico.webp" alt="billetes emitidos por bancos comerciales en mexico durante el porfiriato">
+      <div class="caption">Bancos Comerciales</div>
+      </a>
+
+      <!-- Imagen 2 -->
+      <a href="/bancos-comerciales/">
+      <img loading="lazy" src="/imagenes/billetes-bancos-comerciales-mexico.webp" alt="billetes emitidos por bancos comerciales en mexico durante el porfiriato">
+      <div class="caption">Bancos Comerciales</div>
+      </a>
+
+      <!-- Imagen 2 -->
+      <a href="/bancos-comerciales/">
+      <img loading="lazy" src="/imagenes/billetes-bancos-comerciales-mexico.webp" alt="billetes emitidos por bancos comerciales en mexico durante el porfiriato">
+      <div class="caption">Bancos Comerciales</div>
+      </a>
+
+      <!-- Imagen 2 -->
+      <a href="/bancos-comerciales/">
+      <img loading="lazy" src="/imagenes/billetes-bancos-comerciales-mexico.webp" alt="billetes emitidos por bancos comerciales en mexico durante el porfiriato">
+      <div class="caption">Bancos Comerciales</div>
+      </a>
+
+      <!-- Imagen 2 -->
+      <a href="/bancos-comerciales/">
+      <img loading="lazy" src="/imagenes/billetes-bancos-comerciales-mexico.webp" alt="billetes emitidos por bancos comerciales en mexico durante el porfiriato">
+      <div class="caption">Bancos Comerciales</div>
+      </a>
+
+    </section>
+ </main>
+   
+  <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+    <section>
+    <p>2024-2025 &copy; Billetes Mexicanos</p>
+    </section>
+    </footer>
+  <script src="/js/componentes.js"></script>
+</body>
+</html>
