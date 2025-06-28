@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html lang="es">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +8,10 @@
   
   <!-- SEO -->
     <title>Catálogo de Billetes Mexicanos</title>
-    <meta name="description" content="Explora la colección visual de billetes históricos de México por épocas, valores y variantes. Ideal para coleccionistas y entusiastas de la numismática.">
+    <meta name="description" content="Explora la colección visual de billetes históricos de México por épocas, valores y variantes. Ideal para coleccionistas y entusiastas de la numismática mexicana.">
     <meta name="author" content="Billetes Mexicanos">
-    <link rel="icon" type="image/png" href="/imagenes/favicon.png">
-    <link rel="apple-touch-icon" href="/imagenes/favicon.png">
-
+    <link rel="icon" type="image/png" href="/home/favicon.png">
+    <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
 
   <!-- OPEN GRAPH -->
     <meta property="og:title" content="Catálogo de Billetes Mexicanos">
