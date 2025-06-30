@@ -104,11 +104,17 @@
   </section>
 </main>
 <hr>
-   <footer class="footer" role="contentinfo">
-   <section>
-   <p>2024-2025 &copy; Billetes Mexicanos</p>
-   </section>
-   </footer>
+   <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+  <section class="footer-links">
+    <a href="/">Inicio</a> |
+    <a href="/primeros-billetes/">Primeros Billetes</a> |
+    <a href="/bancos-comerciales/">Bancos Comerciales</a> |
+    <a href="/revolucion-mexicana/">Revolución</a> |
+    <a href="/banco-mexico/">Banco de México</a>
+  </section>
+  <p style="margin-top: 10px;">2024-2025 &copy; Billetes Mexicanos</p>
+</footer>
 <script src="/js/componentes.js"></script>
 
 </body>
