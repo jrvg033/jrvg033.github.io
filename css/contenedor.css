@@ -1,5 +1,5 @@
  body {background-color: #556B2F; color: #fff; font-family: Arial, sans-serif; margin: 0; padding: 0;}
- nav {position: sticky; top: 0; z-index: 100;}
+ nav {top: 0; z-index: 100;}
  .container {max-width: 1000px; margin: auto; padding: 15px;}
  nav a {display: inline-block; padding: 8px 12px;}
  h1.header-title {font-size: 2.2em; font-weight: bold; color: #dcdcdc; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px 2px #000; padding-bottom: 10px;}
@@ -19,3 +19,4 @@
  nav.menu {background-color: #3e4e2f; padding: 10px; text-align: center;}  
  @media (max-width: 600px) {h1.header-title {font-size: 1.6em; padding: 0 10px;} .note-title {font-size: 1em; padding: 0 10px;} .section-title {font-size: 1em;} .container {padding-left: 8px; padding-right: 8px;} .images-grid img {max-width: 100%;} .info-table td {display: block; width: 100%; padding: 8px;} .label {width: 100%; font-weight: bold; margin-bottom: 5px;} p { font-size: 0.95em; line-height: 1.4em;}}
  @media (hover: hover) {.images-grid a:hover img {transform: scale(1.05); border-color: #ccc;}}
+ html, body {max-width: 100%; overflow-x: hidden;}
