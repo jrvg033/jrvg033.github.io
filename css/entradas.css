@@ -16,8 +16,9 @@
  .lightbox.active {display: flex; }
  .lightbox img {max-width: 90%; max-height: 80%; box-shadow: 0 0 20px rgba(255,255,255,0.2); cursor: zoom-out;}
  .lightbox .close {position: absolute; top: 20px; right: 30px; font-size: 2rem; color: white; cursor: pointer; user-select: none;}
- nav {position: sticky; top: 0; z-index: 100;} 
+ nav {top: 0; z-index: 100;} 
  nav a {display: inline-block; padding: 8px 12px;}
  nav.menu {background-color: #3e4e2f; padding: 10px; text-align: center;}
  @media (max-width: 600px) {h1.header-title {font-size: 1.6em; padding: 0 10px;} .note-title {font-size: 1em; padding: 0 10px;} .section-title {font-size: 1em;} .container {padding-left: 8px; padding-right: 8px;} .images-grid img {max-width: 100%;} .info-table td {display: block; width: 100%; padding: 8px;} .label {width: 100%; font-weight: bold; margin-bottom: 5px;}}
  @media (hover: hover) {.images-grid a:hover img {transform: scale(1.05); border-color: #ccc;}}
+ html, body {max-width: 100%; overflow-x: hidden;}
