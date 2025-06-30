@@ -83,28 +83,21 @@
   <!-- TITULO -->
     <h1 class="header-title">Primeros billetes de México (1813)</h1>
   <!-- TABLA DE DATOS -->
-    <table class="info-table">
-      <!-- Dato 1 -->
-      <tr><td class="label">Época</td><td>Independencia de México (1810-1821) - Primer Imperio Mexicano (1821-1823) - Primera República Federal (1823-1835) - República Centralista (1835-1846) - Segunda República Federal (1846-1863) - Segunda Imperio Mexicano (1863-1867) - República Restaurada (1867-1876) - Porfiriato (1876-1910) - Revolución Mexicana (1910-1920) - Posrevolución (1920-1940) - Siglo XX (1940-2000) - Contemporánea (2000-actualidad)</td></tr>
-      <!-- Dato 2 -->
-      <tr><td class="label">Años</td><td>1813</td></tr>
-      <!-- Dato 3 -->
-       <tr><td class="label">Tipo</td><td>Circulación normal - Circulación normal (local) - Emergencia - Prueba - Emisión especial</td></tr>
-      <!-- Dato 4 -->
-      <tr><td class="label">Estado</td><td>En circulación - En proceso de retiro - Desmonetizado</td></tr>
-      <!-- Dato 5 -->
-      <tr><td class="label">Material</td><td>Papel - Polimero</td></tr>
-      <!-- Dato 6 -->
-      <tr>
-      <td class="label">Rareza</td>
-      <td>
-      <span style="color: #90ee90; font-weight: bold;">Muy común</span> –
-      <span style="color: #f0e68c; font-weight: bold;">Escaso</span> –
-      <span style="color: #ffcc99; font-weight: bold;">Raro</span> –
-      <span style="color: #ff6666; font-weight: bold;">Extremadamente raro</span>
-      </td>
-      </tr>
-    </table>
+     <section class="data-list">
+       <div class="item"><span class="label">Época:</span><span class="value">Independencia de México (1810-1821) - Primer Imperio Mexicano (1821-1823) - Primera República Federal (1823-1835) - República Centralista (1835-1846) - Segunda República Federal (1846-1863) - Segunda Imperio Mexicano (1863-1867) - República Restaurada (1867-1876) - Porfiriato (1876-1910) - Revolución Mexicana (1910-1920) - Posrevolución (1920-1940) - Siglo XX (1940-2000) - Contemporánea (2000-actualidad)</span></div>
+       <div class="item"><span class="label">Años:</span><span class="value">1902-1910</span></div>
+       <div class="item"><span class="label">Tipo:</span><span class="value">Circulación normal - Circulación normal (local) - Emergencia - Prueba - Emisión especial</span></div>
+       <div class="item"><span class="label">Estado:</span><span class="value">En circulación - En proceso de retiro - Desmonetizado</span></div>
+       <div class="item"><span class="label">Material:</span><span class="value">Papel - Polímero</span></div>
+       <div class="item"><span class="label">Rareza:</span><span class="value" style="color: #ff6666;">Extremadamente raro</span></div>
+
+         <span class="value" style="color: #90ee90; font-weight: bold;">Muy común</span> –
+         <span class="value" style="color: #f0e68c; font-weight: bold;">Escaso</span> –
+         <span class="value" style="color: #ffcc99; font-weight: bold;">Raro</span> –
+         <span class="value" style="color: #ff6666; font-weight: bold;">Extremadamente raro</span>
+
+    </section>
+    
     <hr />
     
   <!-- IMAGENES -->
