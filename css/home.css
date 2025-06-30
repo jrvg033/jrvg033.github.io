@@ -8,7 +8,8 @@
  .caption {margin-top: 5px; font-size: 0.95em; text-align: center;}
  footer.footer {background-color: #222; color: #fff; text-align: center; padding: 15px 0;}
  nav {top: 0; z-index: 100;}   
- nav a {display: inline-block; padding: 8px 12px;}
- nav.menu {background-color: #3e4e2f; padding: 10px; text-align: center;}
+ nav a {display: inline-block; padding: 8px 10px; margin: 4px; background-color: #556b2f; color: #fff; text-decoration: none; border-radius: 8px; border: 1px solid #8fa77b; transition: background-color 0.3s, transform 0.2s; font-weight: bold; white-space: nowrap;}
+ nav.menu a:hover {background-color: #667f3f; transform: scale(1.05);}
+ nav.menu {background-color: #3e4e2f; padding: 10px; text-align: center; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;}
  @media (max-width: 600px) {.images-grid {flex-direction: column; align-items: center;}}
  html, body {max-width: 100%; overflow-x: hidden;}
