@@ -22,3 +22,8 @@
  @media (max-width: 600px) {h1.header-title {font-size: 1.6em; padding: 0 10px;} .note-title {font-size: 1em; padding: 0 10px;} .section-title {font-size: 1em;} .container {padding-left: 8px; padding-right: 8px;} .images-grid img {max-width: 100%;} .info-table td {display: block; width: 100%; padding: 8px;} .label {width: 100%; font-weight: bold; margin-bottom: 5px;} p { font-size: 0.95em; line-height: 1.4em;}}
  @media (hover: hover) {.images-grid a:hover img {transform: scale(1.05); border-color: #ccc;}}
  html, body {max-width: 100%; overflow-x: hidden;}
+ .sticky-header {position: sticky; top: 0; z-index: 999; background-color: #3e4e2f; padding: 10px 15px; border-bottom: 1px solid #6a7e4b; box-shadow: 0 2px 4px rgba(0,0,0,0.3);}
+ .header-content {display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: nowrap;}
+ .header-content .logo {width: 36px; height: auto;}
+ .header-content h1 {margin: 0; font-size: 1.5em; color: #e0ffe0; font-weight: bold; text-shadow: 1px 1px 2px #000;}
+ @media (max-width: 600px) {.header-content h1 {font-size: 1.2em;} .header-content .logo {width: 28px;}}
