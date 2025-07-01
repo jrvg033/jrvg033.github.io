@@ -20,32 +20,22 @@
     <meta property="og:url" content="https://billetesmexicanos.com">
     <meta name="twitter:card" content="summary_large_image">
 
-  <!-- ESTILOS -->
-
+<!-- ESTILOS -->
 <link rel="stylesheet" href="/css/entradas.css">
 
- 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
+{ "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Billetes del Imperio Mexicano (1823)",
   "description": "Catálogo visual de los billetes emitidos durante el Imperio Mexicano de 1823.",
   "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/",
   "mainEntity": {
-    "@type": "ImageGallery",
-    "name": "Galería de billetes del Imperio Mexicano",
-    "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/"
-  }
-}
+  "@type": "ImageGallery",
+  "name": "Galería de billetes del Imperio Mexicano",
+  "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/"}}
 </script>
-
-
-
 </head>
 <body>
-  
-  
 <main class="container">
 
   <!-- MIGAS DE PAN -->
