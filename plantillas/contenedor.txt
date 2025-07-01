@@ -47,6 +47,12 @@
 
 </head>
 <body>
+<header class="sticky-header">
+  <div class="header-content">
+    <img src="/home/escudo-mexico.png" alt="Escudo Nacional" class="logo" />
+    <h1>Billetes Mexicanos</h1>
+  </div>
+</header>
 
 <main class="container">
 
