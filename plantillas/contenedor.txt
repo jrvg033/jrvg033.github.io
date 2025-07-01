@@ -47,12 +47,7 @@
 
 </head>
 <body>
-<nav class="menu">
-  <a href="/" style="margin: 0 10px; color: #fff; text-decoration: none;">Inicio</a>
-  <a href="/primeros-billetes/" style="margin: 0 10px; color: #fff; text-decoration: none;">Primeros Billetes</a>
-  <a href="/bancos-comerciales" style="margin: 0 10px; color: #fff; text-decoration: none;">Bancos Comerciales</a>
-  <a href="/revolucion-mexicana" style="margin: 0 10px; color: #fff; text-decoration: none;">Revolución</a>
-  </nav>
+
 <main class="container">
 
   <!-- MIGAS DE PAN -->
