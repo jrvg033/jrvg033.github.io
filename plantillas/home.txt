@@ -41,16 +41,6 @@
   </div>
 </header>
 
-
-  <!-- MENU -->
-    <nav class="menu">
-      <a href="/" style="margin: 0 10px; color: #fff; text-decoration: none;">Inicio</a>
-      <a href="/primeros-billetes/" style="margin: 0 10px; color: #fff; text-decoration: none;">Primeros Billetes</a>
-      <a href="/bancos-comerciales/" style="margin: 0 10px; color: #fff; text-decoration: none;">Bancos Comerciales</a>
-      <a href="/revolucion-mexicana/" style="margin: 0 10px; color: #fff; text-decoration: none;">Billetes Revolución</a>
-      <a href="/banco-mexico/" style="margin: 0 10px; color: #fff; text-decoration: none;">Banco de México</a>
-    </nav>
-
  <main class="container">
 
   <!-- TITULO -->
