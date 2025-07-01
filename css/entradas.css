@@ -26,3 +26,8 @@
  .label {font-weight: bold; color: #e0ffe0; margin-right: 10px;}
  .value {color: #ffffff; flex: 1; text-align: right;}
  @media (max-width: 600px) {.item {flex-direction: column; align-items: flex-start; text-align: left;} .value {text-align: left; margin-top: 5px;}}
+ .sticky-header {position: sticky; top: 0; z-index: 999; background-color: #3e4e2f; padding: 10px 15px; border-bottom: 1px solid #6a7e4b; box-shadow: 0 2px 4px rgba(0,0,0,0.3);}
+ .header-content {display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: nowrap;}
+ .header-content .logo {width: 36px; height: auto;}
+ .header-content h1 {margin: 0; font-size: 1.5em; color: #e0ffe0; font-weight: bold; text-shadow: 1px 1px 2px #000;}
+ @media (max-width: 600px) {.header-content h1 {font-size: 1.2em;} .header-content .logo {width: 28px;}}
