@@ -86,10 +86,10 @@
   </section>
 </main>
    
-  <!-- FOOTER -->
-    <footer class="footer">
-    <p>2024-2025 &copy; Billetes Mexicanos</p>
-    </footer>
+<!-- FOOTER -->
+  <footer class="footer">
+  <p>2024-2025 &copy; Billetes Mexicanos</p>
+  </footer>
   <script src="/js/componentes.js"></script>
 </body>
 </html>
