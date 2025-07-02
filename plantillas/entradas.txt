@@ -34,7 +34,7 @@
 <body>
   <header class="sticky-header">
   <div class="header-content">
-  <img src="/home/titulo-billetes-mexicanos.webp" alt="Escudo Nacional" class="logo">
+  <img src="/home/titulo-billetes-mexicanos.webp" alt="Titulo del sitio Billetes Mexicanos" class="logo">
   <h1>Billetes Mexicanos</h1></div>
   </header>
 
@@ -59,7 +59,6 @@
     <span itemprop="name">Medio real</span>
     <meta itemprop="position" content="4"></span>
   </nav>
-  <hr>
     
 <!-- TITULO -->
   <h1 class="header-title">Primeros billetes de México (1813)</h1>
