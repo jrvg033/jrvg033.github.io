@@ -36,7 +36,7 @@
 <!-- CABECERA -->
   <header class="sticky-header">
   <div class="header-content">
-  <img src="/home/titulo-billetes-mexicanos.webp" alt="Encabezado del sitio billetes mexicanos" class="logo" />
+  <img src="/home/titulo-billetes-mexicanos.webp" alt="Encabezado del sitio billetes mexicanos" class="logo">
   <h1>Billetes Mexicanos</h1>
   </div>
   </header>
@@ -51,6 +51,7 @@
 
 <!-- IMAGENES -->
   <section class="images-grid" aria-label="Categorías del catálogo de billetes">
+    <h2 class="sr-only">Categorías del catálogo</h2>
 
     <!-- Imagen 1 -->
     <a href="/primeros-billetes/">
@@ -86,10 +87,8 @@
 </main>
    
   <!-- FOOTER -->
-    <footer class="footer" role="contentinfo">
-    <section>
+    <footer class="footer">
     <p>2024-2025 &copy; Billetes Mexicanos</p>
-    </section>
     </footer>
   <script src="/js/componentes.js"></script>
 </body>
