@@ -7,7 +7,7 @@
   <meta name="robots" content="index, follow">
   
 <!-- SEO -->
-  <title>Catálogo de Billetes Mexicanos</title>
+  <title>Catálogo de Billetes Mexicanos / Billetes Mexicanos</title>
   <meta name="description" content="Explora la colección visual de billetes históricos de México por épocas, valores y variantes. Ideal para coleccionistas y entusiastas de la numismática mexicana.">
   <meta name="author" content="Billetes Mexicanos">
   <link rel="icon" type="image/png" href="/home/favicon.png">
