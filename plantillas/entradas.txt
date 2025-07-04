@@ -82,7 +82,6 @@
          <span class="value" style="color: #ffcc99; font-weight: bold;">Raro</span> –
          <span class="value" style="color: #ff6666; font-weight: bold;">Extremadamente raro</span>
   </section>
-  <hr>
     
 <!-- IMAGENES -->
 <h2 class="section-title">Galería de variantes</h2>
