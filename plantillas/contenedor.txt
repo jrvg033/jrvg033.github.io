@@ -7,7 +7,7 @@
   <meta name="robots" content="index, follow">
 
 <!-- SEO -->
-  <title>Billetes del Imperio Mexicano (1823)</title>
+  <title>Billetes del Imperio Mexicano / Billetes Mexicanos</title>
   <meta name="description" content="Catálogo visual de los billetes emitidos por el Imperio Mexicano 1823.">
   <meta name="author" content="Billetes Mexicanos">
   <link rel="icon" type="image/png" href="/home/favicon.png">
