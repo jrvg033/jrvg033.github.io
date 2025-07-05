@@ -66,7 +66,7 @@
   <h1 class="header-title">El Banco de Aguascalientes</h1>
   
 <!-- DESCRIPCION -->
-  <div class="section-title">Emisión: 1902-1914</div>
+  <h2 class="section-title">Emisión: 1823</h2>
   
 <!-- IMAGENES -->
   <section class="images-grid">
