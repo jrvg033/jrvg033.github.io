@@ -12,8 +12,7 @@ h2 a:hover {color: #9d9822; text-decoration: underline;}
 .breadcrumbs {background-color: #333; padding: 10px 15px; border-radius: 6px; color: #fff;}
 nav.breadcrumbs {font-size: 0.9em; margin-bottom: 20px; color: #ddd;}
 nav.breadcrumbs a {color: #dcdcdc; text-decoration: none;}
-.section-title {font-size: 1.5em; color: #e0ffe0; text-align: center; margin-top: 30px; margin-bottom: 15px; text-shadow: 1px 1px 2px #000; position: relative; font-style: italic;}
-.section-title::after {content: ""; display: block; width: 60px; height: 3px; background-color: #7a9550; margin: 10px auto 0; border-radius: 2px;}
+.section-title {font-size: 1.2em; margin: 30px 0 15px; text-align: center; font-style: italic; color: #e0ffe0;}
 .images-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 15px; justify-items: center;}
 .images-grid a {text-decoration: none; color: inherit; text-align: center;}
 .images-grid img {width: 100%; max-width: 220px; /* o el ancho que prefieras */ height: auto; object-fit: contain; /* asegura que no se recorte nada */ display: block;}
