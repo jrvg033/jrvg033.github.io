@@ -63,7 +63,7 @@
   </nav>
 
 <!-- TITULO -->
-  <h1 class="header-title">El Banco de Aguascalientes (1902-1914)</h1>
+  <h1 class="header-title">El Banco de Aguascalientes</h1>
   
 <!-- DESCRIPCION -->
   <div class="section-title">Emisión: 1902-1914</div>
