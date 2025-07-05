@@ -7,17 +7,17 @@
   <meta name="robots" content="index, follow">
 
 <!-- SEO -->
-  <title>Billetes del Imperio Mexicano / Billetes Mexicanos</title>
-  <meta name="description" content="Información y catálogo visual de los billetes emitidos por el Imperio Mexicano 1823.">
+  <title>Billetes del Banco de Aguascalientes / Billetes Mexicanos</title>
+  <meta name="description" content="Información y catálogo visual de los billetes emitidos por El Banco de Aguascalientes de 1902-1914.">
   <meta name="author" content="Billetes Mexicanos">
   <link rel="icon" type="image/png" href="/home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
 
 <!-- OPEN GRAPH -->
-  <meta property="og:title" content="Catálogo de Billetes Mexicanos">
-  <meta property="og:description" content="Explora la colección visual de billetes históricos por épocas y variantes.">
-  <meta property="og:image" content="/imagenes/primeros-billetes-mexico.webp"> <!-- URL COMPLETA -->
-  <meta property="og:url" content="https://billetesmexicanos.com">
+  <meta property="og:title" content="Billetes del Banco de Aguascalientes">
+  <meta property="og:description" content="Explora la colección visual de los billetes del Banco de Aguascalientes.">
+  <meta property="og:image" content="https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/5-pesos/serie-b-anverso.webp"> <!-- URL COMPLETA -->
+  <meta property="og:url" content="https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/">
   <meta name="twitter:card" content="summary_large_image">
 
 <!-- ESTILOS -->
@@ -25,10 +25,10 @@
 
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "CollectionPage",
-    "name": "Billetes del Imperio Mexicano (1823)",
-    "description": "Catálogo visual de los billetes emitidos durante el Imperio Mexicano de 1823.",
-    "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/",
-    "mainEntity": {"@type": "ImageGallery", "name": "Galería de billetes del Imperio Mexicano", "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/"}}
+    "name": "Billetes del Banco de Aguascalientes",
+    "description": "Catálogo visual de los billetes emitidos por El Banco de Aguascalientes.",
+    "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/",
+    "mainEntity": {"@type": "ImageGallery", "name": "Galería de billetes del Imperio Mexicano", "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/5-pesos/serie-b-anverso.webp"}}
   </script>
 
 </head>
@@ -58,34 +58,47 @@
     <meta itemprop="position" content="2"></span>
     <!-- Breadcrumbs 3 -->
     <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-    <span itemprop="name">Imperio Mexicano</span>
+    <span itemprop="name">Banco de Aguascalientes</span>
     <meta itemprop="position" content="3"></span>
   </nav>
 
 <!-- TITULO -->
-  <h1 class="header-title">Primeros billetes de México (1813)</h1>
-  <section aria-label="Introducción a los cartones de San Miguel el Grande" style="text-align:center; margin-top:-10px; margin-bottom:25px;">
-  <p>Esta colección reúne los cartones emitidos en San Miguel el Grande durante 1813, considerados los primeros billetes del México independiente.</p>
-  </section>
+  <h1 class="header-title">El Banco de Aguascalientes (1902-1914)</h1>
   
 <!-- DESCRIPCION -->
-  <div class="section-title">Emisión: 1823</div>
+  <div class="section-title">Emisión: 1902-1914</div>
   
 <!-- IMAGENES -->
   <section class="images-grid">
-  <h2 class="sr-only">Galería de billetes del Imperio Mexicano</h2>      
+  <h2 class="sr-only">Galería de billetes del Banco de Aguascalientes</h2>      
     <!-- Imagen 1 -->      
-    <a href="https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/1-peso/">
-    <img loading="lazy" src="https://raw.githubusercontent.com/jrvg033/jrvg033.github.io/refs/heads/main/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.png" alt="1 Peso imperio mexicano">
-    <div class="caption">1 Peso</div></a>
+    <a href="/bancos-comerciales/banco-aguascalientes/5-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/5-pesos/serie-b-anverso.webp" alt="5 pesos del Banco de Aguascalientes">
+    <div class="caption">5 Pesos</div></a>
     <!-- Imagen 2 -->
-    <a href="https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/2-pesos/">
-    <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/2-pesos/2-pesos-imperio-mexicano-anverso.webp" alt="2 Pesos imperio mexicano">
-    <div class="caption">2 Pesos</div></a>
-    <!-- Imagen 3 -->
-    <a href="https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/10-pesos/">
-    <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/10-pesos/10-pesos-imperio-mexicano-anverso.webp" alt="10 Pesos imperio mexicano">
+    <a href="/bancos-comerciales/banco-aguascalientes/10-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-b-anverso.webp" alt="10 pesos del Banco de Aguascalientes">
     <div class="caption">10 Pesos</div></a>
+     <!-- Imagen 3 -->      
+    <a href="/bancos-comerciales/banco-aguascalientes/20-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/20-pesos/serie-b-anverso.webp" alt="20 pesos del Banco de Aguascalientes">
+    <div class="caption">20 Pesos</div></a>
+    <!-- Imagen 4 -->
+    <a href="/bancos-comerciales/banco-aguascalientes/50-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/50-pesos/serie-b-anverso.webp" alt="50 pesos del Banco de Aguascalientes">
+    <div class="caption">50 Pesos</div></a>
+     <!-- Imagen 5 -->      
+    <a href="/bancos-comerciales/banco-aguascalientes/100-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/100-pesos/serie-b-anverso.webp" alt="100 pesos del Banco de Aguascalientes">
+    <div class="caption">100 Pesos</div></a>
+    <!-- Imagen 6 -->
+    <a href="/bancos-comerciales/banco-aguascalientes/500-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/500-pesos/serie-a-anverso.webp" alt="500 pesos del Banco de Aguascalientes">
+    <div class="caption">500 Pesos</div></a>
+    <!-- Imagen 7 -->
+    <a href="/bancos-comerciales/banco-aguascalientes/1000-pesos/">
+    <img loading="lazy" src="/bancos-comerciales/banco-aguascalientes/1000-pesos/prueba-unifacial-color-anverso.webp" alt="1000 pesos del Banco de Aguascalientes">
+    <div class="caption">1000 Pesos</div></a>
   </section>
 </main>
 <hr>
