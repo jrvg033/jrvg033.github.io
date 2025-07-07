@@ -1,52 +1,154 @@
-body {background-color: #000; color: #fff; font-family: Arial, sans-serif; margin: 0; padding: 0;}
-.container {max-width: 1000px; margin: auto; padding: 15px 10px;}
-.sticky-header {position: sticky; top: 0; z-index: 999; background-color: #3e4e2f; padding: 10px 15px; border-bottom: 1px solid #6a7e4b; box-shadow: 0 2px 4px rgba(0,0,0,0.3);}
-.header-content {display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: nowrap;}
-.header-content .logo {width: 36px; height: auto;}
-.header-content h1 {margin: 0; font-size: 1.5em; color: #e0ffe0; font-weight: bold; text-shadow: 1px 1px 2px #000;}
-h1.header-title {font-size: 2.2em; font-weight: bold; color: #dcdcdc; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px 2px #000; padding-bottom: 10px;}
-.header-link {text-decoration: none; color: inherit; display: block;}
-h2 {font-size: 1.4em; text-align: center; margin-bottom: 25px; color: #e6e6e6;}
-h2 a {color: #b9b315; text-decoration: none;}
-h2 a:hover {color: #9d9822; text-decoration: underline;}
-.breadcrumbs {background-color: #333; padding: 10px 15px; border-radius: 6px; color: #fff;}
-nav.breadcrumbs {font-size: 0.9em; margin-bottom: 20px; color: #ddd;}
-nav.breadcrumbs a {color: #dcdcdc; text-decoration: none;}
-.section-title {font-size: 1.2em; margin: 30px 0 15px; text-align: center; font-style: italic; color: #e0ffe0;}
-.intro-text {text-align: center; margin-top: -10px; margin-bottom: 25px;}
-.mapa {position: relative; max-width: 600px; margin: auto;}
-.mapa-img {width: 100%; height: auto; display: block;}
-.punto {position: absolute; color: #ff0; font-size: 1.4em; cursor: pointer; transform: translate(-50%, -50%); z-index: 2;}
-.popup {position: absolute; background: #222; color: #fff; padding: 8px 12px; border-radius: 6px; display: none; z-index: 10; white-space: nowrap; border: 1px solid #667f3f; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);}
-.popup a {color: #e0ffe0; font-weight: bold; text-decoration: none;}
-.popup a:hover {text-decoration: underline;}
-.ciudades-bancos {max-width: 600px; margin: 30px auto; padding: 10px; text-align: left;}
-.ciudades-bancos h2 {text-align: center; color: #fffacd; font-size: 1.4em; margin-bottom: 15px;}
-.ciudades-bancos details { background-color: #1a1a1a; border: 1px solid #444; border-radius: 6px; margin-bottom: 12px; padding: 6px 10px;}
-.ciudades-bancos summary {font-weight: bold; cursor: pointer; color: #ffe066; font-size: 1em; list-style: none;}
-.ciudades-bancos summary::-webkit-details-marker {display: none;}
-.ciudades-bancos summary::before {content: "▸"; margin-right: 8px; color: #ccc; display: inline-block; transition: transform 0.2s ease;}
-.ciudades-bancos details[open] summary::before {transform: rotate(90deg);}
-.ciudades-bancos ul {margin-top: 8px; margin-left: 20px; padding-left: 0; list-style-type: disc; color: #ccc;}
-.ciudades-bancos li {margin: 5px 0;}
-.ciudades-bancos a {color: #b9b315; text-decoration: none;}
-.ciudades-bancos a:hover {color: #e6e600; text-decoration: underline;}
-.images-grid {display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;}    
-.images-grid a {text-decoration: none; color: inherit; text-align: center; margin-bottom: 10px;}
-.images-grid img {width: 100%; max-width: 220px; /* o el ancho que prefieras */ height: auto; object-fit: contain; /* asegura que no se recorte nada */ display: block;}
-.images-grid a:hover img {transform: scale(1.05); border-color: #ccc;}
-.caption {margin-top: 5px; font-size: 0.9em;}
-.images-grid a:hover .caption {color: #ffe066; text-decoration: underline;}
-.logo-final {text-align: center; margin-top: 40px; margin-bottom: 20px;}
-.logo-footer {max-width: 300px; height: auto; opacity: 0.9;}
-footer.footer {background-color: #222; color: #fff; text-align: center; padding: 15px 0; margin-top: 30px;}  
-.footer a {color: #dcdcdc; text-decoration: none; font-weight: bold; margin: 0 5px;}
-.footer a:hover {color: #ffffff; text-decoration: underline;}
-.footer-links {display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 10px 0;}
-.footer-links a {background-color: #667f3f; color: #fff; padding: 6px 12px; text-decoration: none; font-size: 0.9em; border-radius: 6px; transition: background-color 0.3s ease, transform 0.2s ease;   border: 1px solid #8fa77b;}
-.footer-links a:hover {background-color: #7a9550; transform: scale(1.05);}
-.sr-only {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;}
-@media (max-width: 600px) {h1.header-title {font-size: 1.6em; padding: 0 10px;} .note-title {font-size: 1em; padding: 0 10px;} .section-title {font-size: 1em;} .container {padding-left: 8px; padding-right: 8px;} .images-grid img {max-width: 100%;} .info-table td {display: block; width: 100%; padding: 8px;} .label {width: 100%; font-weight: bold; margin-bottom: 5px;} p { font-size: 0.95em; line-height: 1.4em;}}
-@media (hover: hover) {.images-grid a:hover img {transform: scale(1.05); border-color: #ccc;}}
-@media (max-width: 600px) {.header-content h1 {font-size: 1.2em;} .header-content .logo {width: 28px;}}
-html, body {max-width: 100%; overflow-x: hidden;}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000">
+  <meta name="robots" content="index, follow">
+
+<!-- SEO -->
+  <title>Billetes de Bancos comerciales / Billetes Mexicanos</title>
+  <meta name="description" content="Información y catálogo visual de los billetes emitidos por los Bancos comerciales en Mexico, durante el Porfiriato.">
+  <meta name="author" content="Billetes Mexicanos">
+  <link rel="icon" type="image/png" href="/home/favicon.png">
+  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
+
+<!-- OPEN GRAPH -->
+  <meta property="og:title" content="Billetes de Bancos Comerciales">
+  <meta property="og:description" content="Explora la colección visual de los billetes emitidos por los bancos comerciales.">
+  <meta property="og:image" content="https://billetesmexicanos.com/home/billetes-bancos-comerciales-mexico.webp"> <!-- URL COMPLETA -->
+  <meta property="og:url" content="https://billetesmexicanos.com/bancos-comerciales/">
+  <meta name="twitter:card" content="summary_large_image">
+
+<!-- ESTILOS -->
+  <link rel="stylesheet" href="/css/intermedia.css">
+      
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "CollectionPage",
+  "name": "Billetes de Bancos comerciales",
+  "description": "Catálogo visual de los billetes emitidos por los Bancos comerciales en el Porfiriato.",
+  "url": "https://billetesmexicanos.com/bancos-comerciales/",
+  "mainEntity": {"@type": "ImageGallery", "name": "Galería de billetes de los Bancos comerciales", "url": "https://billetesmexicanos.com/home/billetes-bancos-comerciales-mexico.webp"}}
+  </script>
+
+</head>
+<body>
+
+<!-- CABECERA -->
+  <header class="sticky-header">
+  <a href="/" class="header-link">
+  <div class="header-content">
+  <img src="/home/titulo-billetes-mexicanos.webp" alt="Encabezado del sitio billetes mexicanos" class="logo">
+  <h1>Billetes Mexicanos</h1>
+  </div>
+  </a>
+  </header>
+
+<main class="container">
+
+<!-- MIGAS DE PAN -->
+  <nav class="breadcrumbs" aria-label="Breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <!-- Breadcrumbs 1 -->
+    <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <a href="/" itemprop="item"><span itemprop="name">Inicio</span></a> ›
+    <meta itemprop="position" content="1"></span>
+      
+    <!-- Breadcrumbs 2 -->
+    <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <span itemprop="name">Bancos comerciales</span>
+    <meta itemprop="position" content="2"></span>
+  </nav>
+
+  
+<!-- TITULO -->
+  <h1 class="header-title">Bancos comerciales en México</h1>
+  <section class="intro-text" aria-label="Introducción a los billetes emitidos por Bancos comerciales en México">
+  <p>Antes y durante el Porfiriato, diversos bancos comerciales obtuvieron concesiones para emitir billetes en México. Estos billetes circularon ampliamente en cada estado, reflejando el auge económico y la influencia regional de las instituciones bancarias de la época.</p>
+  </section>
+
+<!-- MAPA -->
+  <div class="mapa">
+  <img src="https://billetesmexicanos.com/home/mapa-mexico.svg" alt="Mapa de México con los Bancos Comerciales" class="mapa-img">
+  <!-- Punto 1 -->
+  <div class="punto" style="top: 61.3%; left: 47.7%;"
+     onclick="mostrarPopup([
+       {nombre: 'El Banco de Aguascalientes', url: '/bancos-comerciales/banco-aguascalientes/'},
+            ], event)">●</div>
+  <!-- Punto 2 -->
+  
+  <!-- Contenedor del popup -->
+  <div id="popup" class="popup" onclick="event.stopPropagation()">
+    <a id="popup-link" href="#" target="_self"></a></div>
+  </div>
+
+<!-- CIUDADES -->  
+  <section class="ciudades-bancos">
+  <h2>Lista de ciudades</h2>
+  
+  <details>
+    <summary>Aguascalientes</summary>
+    <ul>
+      <li><a href="/bancos-comerciales/banco-aguascalientes/">El Banco de Aguascalientes</a></li>
+    </ul>
+  </details>
+
+</section>
+<hr>
+
+</main>
+
+<!-- LOGO -->
+<div class="logo-final">
+  <img src="/home/footer-billetes-mexicanos.webp" alt="Footer Billetes Mexicanos" class="logo-footer">
+</div>
+  
+<!-- FOOTER -->
+  <footer class="footer">
+  <section class="footer-links">
+  <h2 class="sr-only">Enlaces del pie de página</h2>   
+  <a href="/">Inicio</a> |
+  <a href="/primeros-billetes/">Primeros Billetes</a> |
+  <a href="/bancos-comerciales/">Bancos Comerciales</a> |
+  <a href="/revolucion-mexicana/">Revolución</a> |
+  <a href="/banco-mexico/">Banco de México</a>
+  </section>
+  <p style="margin-top: 10px;">2024-2025 &copy; Billetes Mexicanos</p>
+  </footer>
+  
+<script src="/js/componentes.js"></script>
+
+<!-- JS MAPA -->
+<script>
+  function mostrarPopup(bancos, event) {
+    event.stopPropagation();
+
+    const popup = document.getElementById('popup');
+    const mapa = document.querySelector('.mapa');
+
+    // Construye el contenido con todos los bancos
+    const contenido = `<ul style="margin: 0; padding-left: 18px;">` +
+  bancos.map(banco =>
+    `<li style="margin: 4px 0;"><a href="${banco.url}" target="_self">${banco.nombre}</a></li>`
+  ).join('') +
+`</ul>`;
+
+    popup.innerHTML = contenido;
+
+    // Posición relativa al contenedor .mapa
+    const rect = mapa.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    popup.style.left = x + 'px';
+    popup.style.top = y + 'px';
+    popup.style.display = 'block';
+  }
+
+  // Ocultar el popup al hacer clic fuera
+  document.addEventListener('click', function () {
+    document.getElementById('popup').style.display = 'none';
+  });
+</script>
+
+</body>
+</html>
