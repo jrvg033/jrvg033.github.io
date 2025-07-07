@@ -64,7 +64,7 @@
 
 <!-- TITULO -->
   <h1 class="header-title">El Banco de Aguascalientes</h1>
-  <section class="intro-text" aria-label="Introducción a los cartones de San Miguel el Grande" style="text-align:center; margin-top:-10px; margin-bottom:25px;">
+  <section class="intro-text" aria-label="Introducción a los cartones de San Miguel el Grande">
   <p>Esta colección reúne los cartones emitidos en San Miguel el Grande durante 1813, considerados los primeros billetes del México independiente.</p>
   </section>
   
