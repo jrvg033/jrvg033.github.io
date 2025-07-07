@@ -68,11 +68,24 @@
 
 <!-- MAPA -->
   <div class="mapa">
-  <img src="/home/mapa-mexico.svg" alt="Mapa de México" class="mapa-img">
-  <a href="aguascalientes.html" class="punto" style="top: 45%; left: 47%;" title="Banco de Aguascalientes">●</a>
-  <a href="durango.html" class="punto" style="top: 35%; left: 30%;" title="Banco de Durango">●</a>
-  <!-- Agrega más bancos aquí -->
+  <img src="/ruta/mexico-mapa-base.png" alt="Mapa de México" class="mapa-img">
+
+  <!-- Punto 1 -->
+  <div class="punto" style="top: 45%; left: 47%;" onclick="mostrarPopup('Banco de Aguascalientes', 'aguascalientes.html', event)">
+    ●
+  </div>
+
+  <!-- Punto 2 -->
+  <div class="punto" style="top: 35%; left: 30%;" onclick="mostrarPopup('Banco de Durango', 'durango.html', event)">
+    ●
+  </div>
+
+  <!-- Contenedor del popup -->
+  <div id="popup" class="popup" onclick="event.stopPropagation()">
+    <a id="popup-link" href="#" target="_self"></a>
+  </div>
 </div>
+
 
 
   <!-- SECCION 1 -->
