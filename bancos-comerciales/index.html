@@ -68,12 +68,14 @@
 
 <!-- MAPA -->
   <div class="mapa">
-  <img src="/home/mapa-mexico.svg" alt="Mapa de México" class="mapa-img">
+  <img src="https://billetesmexicanos.com/home/mapa-mexico.svg" alt="Mapa de México con los Bancos Comerciales" class="mapa-img">
   <!-- Punto 1 -->
-  <div class="punto" style="top: 45%; left: 47%;" onclick="mostrarPopup('Banco de Aguascalientes', 'aguascalientes.html', event)">●</div>
+  <div class="punto" style="top: 61.3%; left: 47.7%;"
+     onclick="mostrarPopup([
+       {nombre: 'El Banco de Aguascalientes', url: '/bancos-comerciales/banco-aguascalientes/'},
+            ], event)">●</div>
   <!-- Punto 2 -->
-  <div class="punto" style="top: 35%; left: 30%;" onclick="mostrarPopup('Banco de Durango', 'durango.html', event)">●</div>
-
+  
   <!-- Contenedor del popup -->
   <div id="popup" class="popup" onclick="event.stopPropagation()">
     <a id="popup-link" href="#" target="_self"></a></div>
@@ -86,20 +88,14 @@
   <details>
     <summary>Aguascalientes</summary>
     <ul>
-      <li><a href="/bancos-comerciales/banco-aguascalientes/">Banco de Aguascalientes</a></li>
-      <li><a href="/bancos-comerciales/banco-del-llano/">Banco del Llano</a></li>
+      <li><a href="/bancos-comerciales/banco-aguascalientes/">El Banco de Aguascalientes</a></li>
     </ul>
   </details>
 
-  <details>
-    <summary>Durango</summary>
-    <ul>
-      <li><a href="/bancos-comerciales/banco-durango/">Banco de Durango</a></li>
-      <li><a href="/bancos-comerciales/banco-interoceanico/">Banco Interoceánico</a></li>
-    </ul>
-  </details>
 </section>
 <hr>
+
+</main>
 
 <!-- LOGO -->
 <div class="logo-final">
@@ -122,17 +118,21 @@
 <script src="/js/componentes.js"></script>
 
 <!-- JS MAPA -->
-  <script>
-  function mostrarPopup(nombre, url, event) {
+<script>
+  function mostrarPopup(bancos, event) {
     event.stopPropagation();
 
     const popup = document.getElementById('popup');
-    const link = document.getElementById('popup-link');
     const mapa = document.querySelector('.mapa');
 
-    // Configura el enlace
-    link.textContent = nombre;
-    link.href = url;
+    // Construye el contenido con todos los bancos
+    const contenido = `<ul style="margin: 0; padding-left: 18px;">` +
+  bancos.map(banco =>
+    `<li style="margin: 4px 0;"><a href="${banco.url}" target="_self">${banco.nombre}</a></li>`
+  ).join('') +
+`</ul>`;
+
+    popup.innerHTML = contenido;
 
     // Posición relativa al contenedor .mapa
     const rect = mapa.getBoundingClientRect();
