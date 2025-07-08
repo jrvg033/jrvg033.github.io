@@ -138,13 +138,21 @@
 
     // Posición relativa al contenedor .mapa
     const rect = mapa.getBoundingClientRect();
-    const x = event.clientX - rect.left;
-    const y = event.clientY - rect.top;
+    let x = event.clientX - rect.left;
+    let y = event.clientY - rect.top;
+
+    const popupWidth = popup.offsetWidth || 150; // estimado si aún no se ha renderizado
+    const popupHeight = popup.offsetHeight || 40;
+
+    if (x + popupWidth > mapa.clientWidth) {
+    x = mapa.clientWidth - popupWidth - 10;}
+    if (y + popupHeight > mapa.clientHeight) {
+    y = mapa.clientHeight - popupHeight - 10;}
 
     popup.style.left = x + 'px';
     popup.style.top = y + 'px';
-    popup.style.display = 'block';
-  }
+
+    popup.style.display = 'block';}
 
   // Ocultar el popup al hacer clic fuera
   document.addEventListener('click', function () {
