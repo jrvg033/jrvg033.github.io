@@ -12,6 +12,8 @@ h1.header-title {font-size: clamp(1.5rem, 5vw, 2.2rem); font-weight: bold; color
 .images-grid img {width: clamp(160px, 25vw, 240px); max-width: 90vw; height: auto; cursor: pointer; border: 2px solid #999; border-radius: 6px; transition: transform 0.2s ease;}
 .images-grid a:hover img {transform: scale(1.05); border-color: #ccc;}
 .caption {margin-top: 5px; font-size: 0.95em; text-align: center;}
+.logo-final {text-align: center; margin-top: 40px; margin-bottom: 20px;}
+.logo-footer {max-width: 300px; height: auto; opacity: 0.9;}
 footer.footer {background-color: #222; color: #fff; text-align: center; padding: 15px 0;}
 .footer a {color: #dcdcdc; text-decoration: none; font-weight: bold; margin: 0 5px;}
 .footer a:hover {color: #ffffff; text-decoration: underline;}
