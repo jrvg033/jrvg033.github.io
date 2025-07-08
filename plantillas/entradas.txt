@@ -8,7 +8,7 @@
   
 <!-- SEO -->
   <title>10 Pesos - El Banco de Aguascalientes / Billetes Mexicanos</title>
-  <meta name="description" content="Información detallada y galeria de imagenes sobre el billete de 10 pesos del Banco de Aguascalientes..">
+  <meta name="description" content="Información detallada y galeria de imagenes sobre el billete de 10 pesos del Banco de Aguascalientes.">
   <meta name="author" content="Billetes Mexicanos">
   <link rel="icon" type="image/png" href="/home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
