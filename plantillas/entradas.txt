@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
 
 <!-- OPEN GRAPH -->
-  <meta property="og:title" content="10 Pesos - El Banco de Aguascalientes">
+  <meta property="og:title" content="Billete de 10 Pesos - El Banco de Aguascalientes">
   <meta property="og:description" content="Explora la colección visual del billete de 10 pesos del Banco de Aguascalientes.">
   <meta property="og:image" content="https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso.webp">
   <meta property="og:url" content="https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/">
