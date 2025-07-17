@@ -7,41 +7,50 @@
   <meta name="robots" content="index, follow">
   
 <!-- SEO -->
-  <title>10 Pesos - El Banco de Aguascalientes / Billetes Mexicanos</title>
+  <title>Billete de 10 Pesos - El Banco de Aguascalientes / Billetes Mexicanos</title>
   <meta name="description" content="Información detallada y galeria de imagenes sobre el billete de 10 pesos del Banco de Aguascalientes.">
-  <meta name="author" content="Billetes Mexicanos">
-  <link rel="icon" type="image/png" href="/home/favicon.png">
-  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
+  <link rel="icon" type="image/png" href="https://billetesmexicanos.com//home/favicon.png">
+  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
 
 <!-- OPEN GRAPH -->
-  <meta property="og:title" content="Catálogo de Billetes Mexicanos">
-  <meta property="og:description" content="Explora la colección visual de billetes históricos por épocas y variantes.">
-  <meta property="og:image" content="/imagenes/primeros-billetes-mexico.webp"> <!-- URL COMPLETA -->
-  <meta property="og:url" content="https://billetesmexicanos.com">
+  <meta property="og:title" content="10 Pesos - El Banco de Aguascalientes">
+  <meta property="og:description" content="Explora la colección visual del billete de 10 pesos del Banco de Aguascalientes.">
+  <meta property="og:image" content="https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso.webp">
+  <meta property="og:url" content="https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/">
   <meta name="twitter:card" content="summary_large_image">
 
 <!-- ESTILOS -->
   <link rel="stylesheet" href="/css/entradas.css">
 
+<!-- SCRIPT -->
   <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "CollectionPage",
-    "name": "Billetes del Imperio Mexicano (1823)",
-    "description": "Catálogo visual de los billetes emitidos durante el Imperio Mexicano de 1823.",
-    "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/",
-    "mainEntity": {"@type": "ImageGallery", "name": "Galería de billetes del Imperio Mexicano", "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/"}}
+  {"@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Billete de 10 pesos - Banco de Aguascalientes",
+  "description": "Catálogo visual del billete de 10 pesos emitido por el Banco de Aguascalientes.",
+  "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/",
+  "image": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso.webp",
+  "mainEntity": {
+    "@type": "ImageGallery",
+    "name": "Galería de billetes de 10 pesos",
+    "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/"},
+  "author": {
+    "@type": "Organization",
+    "name": "Billetes Mexicanos",
+    "url": "https://billetesmexicanos.com"}}
   </script>
 </head>
 <body>
 
 <!-- CABECERA -->
-  <header class="sticky-header">
-  <a href="/" class="header-link">
+  <div class="sticky-header">
+  <a href="/" class="header-link" style="text-decoration: none; color: inherit;">
   <div class="header-content">
   <img src="/home/titulo-billetes-mexicanos.webp" alt="Encabezado del sitio billetes mexicanos" class="logo">
-  <h1>Billetes Mexicanos</h1>
+  <p class="site-name">Billetes Mexicanos</p>
   </div>
   </a>
-  </header>
+  </div>
 
 <main class="container">
 
@@ -66,7 +75,8 @@
   </nav>
     
 <!-- TITULO -->
-  <h1 class="header-title">Primeros billetes de México (1813)</h1>
+  <h1 class="header-title">10 Pesos - El Banco de Aguascalientes</h1>
+
 <!-- TABLA DE DATOS -->
   <section class="data-list">
   <h2 class="section-title">Características del Billete</h2>
@@ -88,28 +98,45 @@
 
   <!-- Imagen 1 -->    
     <div class="images-grid">
-    <img loading="lazy"  src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="San Miguel el Grande 1813 1" onclick="openLightbox('https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes de prueba unifacial a color anverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso-1.webp" alt="Billete de 10 pesos del Banco de Aguascalientes de prueba unifacial a color anverso liso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso-1.webp')">
     </div>
-    <p class="note-title">Firma de Gonzalez</p>
+    <p class="note-title">Unifacial de prueba a color anverso</p>
     <hr>
   <!-- Imagen 2 -->
     <div class="images-grid">
-    <img loading="lazy"  src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-2-anverso.webp" alt="San Miguel el Grande 1813 2 anverso" onclick="openLightbox('https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-2-anverso.webp')">
-    <img loading="lazy"  src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-2-reverso.webp" alt="San Miguel el Grande 1813 2 reverso" onclick="openLightbox('https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-2-reverso.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-reverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes de prueba unifacial a color reverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-reverso.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-reverso-1.webp" alt="Billete de 10 pesos del Banco de Aguascalientes de prueba unifacial a color reverso liso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-reverso-1.webp')">
     </div>
-    <p class="note-title">Firma de Miguel María Malo, subdelegado de San Miguel el Grande</p>
+    <p class="note-title">Unifacial de prueba a color reverso</p>
     <hr>
   <!-- Imagen 3 -->
     <div class="images-grid">
-    <img loading="lazy"  src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-3.webp" alt="San Miguel el Grande 1813 3" onclick="openLightbox('https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-3.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-anverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes serie A anverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-anverso.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-reverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes serie A reverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-reverso.webp')">
     </div>
-    <p class="note-title">Firma sin identificar</p>
+    <p class="note-title">Serie A</p>
     <hr>
   <!-- Imagen 4 -->
     <div class="images-grid">
-    <img loading="lazy"  src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-4.webp" alt="San Miguel el Grande 1813 4" onclick="openLightbox('https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-4.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-b-anverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes Serie B anverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-b-anverso.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-b-reverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes Serie B reverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-b-reverso.webp')">
     </div>
-    <p class="note-title">Firma ilegible</p>
+    <p class="note-title">Serie B</p>
+    <hr>
+  <!-- Imagen 5 -->
+    <div class="images-grid">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-c-anverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes Serie C anverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-c-anverso.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-c-reverso.webp" alt="Billete de 10 pesos del Banco de Aguascalientes Serie C reverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-c-reverso.webp')">
+    </div>
+    <p class="note-title">Serie C</p>
+    <hr>
+  <!-- Imagen 6 -->
+    <div class="images-grid">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-anverso-sobreimpresion-guadalajara.webp" alt="Billete de 10 pesos del Banco de Aguascalientes serie A con Sobreimpresión roja Guadalajara anverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-anverso-sobreimpresion-guadalajara.webp')">
+    <img loading="lazy"  src="/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-reverso-sobreimpresion-guadalajara-1.webp" alt="Billete de 10 pesos del Banco de Aguascalientes serie A con Sobreimpresión roja Guadalajara reverso" onclick="openLightbox('/bancos-comerciales/banco-aguascalientes/10-pesos/serie-a-reverso-sobreimpresion-guadalajara-1.webp')">
+    </div>
+    <p class="note-title">Sobreimpresión Guadalajara en rojo</p>
     <hr>
 
 <!-- LOGO -->
