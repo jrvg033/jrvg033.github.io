@@ -32,7 +32,7 @@
   "image": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/prueba-color-anverso.webp",
   "mainEntity": {
     "@type": "ImageGallery",
-    "name": "Galería de billetes de 10 pesos",
+    "name": "Galería del billete de 10 pesos del Banco de Aguascalientes",
     "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/10-pesos/"},
   "author": {
     "@type": "Organization",
