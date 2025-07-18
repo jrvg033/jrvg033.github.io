@@ -90,41 +90,48 @@ footer.footer {
   position : absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border : 0;
 }
   @media (max-width : 600px) {
-  h1.header-title{font-size: 1.6em; padding: 0 10px;
+  h1.header-title, .header-content h1{font-size : 1.6em;
+  padding : 0 10px;
 }
 .note-title {
-  font-size: 1em; padding: 0 10px;
+  font-size : 1em;
+  padding : 0 10px;
 }
 .section-title {
-  font-size: 1em;
+  font-size : 1em;
 }
 .container {
-  padding-left: 8px; padding-right: 8px;
-}
-.images-grid img {
-  max-width: 100%;
-}
-.info-table td {
-  display: block; width: 100%; padding: 8px;
-}
-.label {
-  width: 100%; font-weight: bold; margin-bottom: 5px;
-}
-p {
-  font-size: 0.95em; line-height : 1.4em;
-}
-  }@media (hover : hover) {
-  .images-grid a : hover img{transform: scale(1.05); border-color : #ccc;
-}
-  }@media (max-width : 600px) {
-  .header-content h1{font-size: 1.2em;
-}
-.header-content .logo {
-  width: 28px;
+  padding-left : 8px;
+  padding-right : 8px;
 }
 .images-grid {
   grid-template-columns : 1fr !important;
 }
+.images-grid img {
+  max-width : 100%;
+}
+.info-table td {
+  display : block;
+  width : 100%;
+  padding : 8px;
+}
+.label {
+  width : 100%;
+  font-weight : bold;
+  margin-bottom : 5px;
+}
+p {
+  font-size : 0.95em;
+  line-height : 1.4em;
+}
+.header-content .logo {
+  width : 28px;
+}
+  }@media (hover : hover) {
+  .images-grid a : hover img{transform : scale(1.05);
+  border-color : #ccc;
+}
 }html, body {
-  max-width : 100%; overflow-x : hidden;
+  max-width : 100%;
+  overflow-x : hidden;
 }
