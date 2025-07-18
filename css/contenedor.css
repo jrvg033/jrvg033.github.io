@@ -29,7 +29,7 @@ h2 {
 h2 a {
   color : #b9b315; text-decoration : none;
 }
-  h2 a : hover {
+  h2 a :hover {
   color: #9d9822; text-decoration : underline;
 }
 .breadcrumbs {
@@ -56,7 +56,7 @@ nav.breadcrumbs a {
 .images-grid img {
   width : 100%; max-width: 220px;  height: auto; object-fit: contain;  display : block;
 }
-  .images-grid a : hover img {
+  .images-grid a :hover img {
   transform: scale(1.05); border-color : #ccc;
 }
 .caption {
@@ -74,7 +74,7 @@ footer.footer {
 .footer a {
   color : #dcdcdc; text-decoration: none; font-weight: bold; margin : 0 5px;
 }
-  .footer a : hover {
+  .footer a :hover {
   color: #ffffff; text-decoration : underline;
 }
 .footer-links {
@@ -83,7 +83,7 @@ footer.footer {
 .footer-links a {
   background-color : #667f3f; color: #fff; padding: 6px 12px; text-decoration: none; font-size: 0.9em; border-radius: 6px; transition: background-color 0.3s ease, transform 0.2s ease;   border : 1px solid #8fa77b;
 }
-  .footer-links a : hover {
+  .footer-links a :hover {
   background-color: #7a9550; transform : scale(1.05);
 }
 .sr-only {
@@ -128,7 +128,7 @@ p {
   width : 28px;
 }
   }@media (hover : hover) {
-  .images-grid a : hover img{transform : scale(1.05);
+  .images-grid a :hover img{transform : scale(1.05);
   border-color : #ccc;
 }
 }html, body {
