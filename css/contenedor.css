@@ -87,7 +87,7 @@ footer.footer {
   background-color: #7a9550; transform : scale(1.05);
 }
 .sr-only {
-  position : absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path:: rect(0, 0, 0, 0); white-space: nowrap; border : 0;
+  position : absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; white-space: nowrap; border : 0;
 }
   @media (max-width : 600px) {
   h1.header-title, .header-content h1{font-size : 1.6em;
