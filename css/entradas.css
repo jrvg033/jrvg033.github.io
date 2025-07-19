@@ -150,6 +150,9 @@ footer.footer {
   font-weight: bold;
   margin: 0 5px;
 }
+.footer p {
+  margin-top: 10px;
+}
 .footer a:hover {
   color: #ffffff;
   text-decoration: underline;
