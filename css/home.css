@@ -3,7 +3,13 @@ main.container {padding: 15px; max-width: 1000px; margin: auto;}
 .sticky-header {position: sticky; top: 0; z-index: 999; background-color: #3e4e2f; padding: 10px 15px; border-bottom: 1px solid #6a7e4b; box-shadow: 0 2px 4px rgba(0,0,0,0.3);}
 .header-content {display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: nowrap;}
 .header-content .logo {width: 36px; height: auto;}
-.header-content h1 {margin: 0; font-size: 1.5em; color: #e0ffe0; font-weight: bold; text-shadow: 1px 1px 2px #000;}
+.header-content .site-name {
+  font-size: 1.5em;
+  color: #e0ffe0;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+  margin: 0;
+}
 h1.header-title {font-size: clamp(1.5rem, 5vw, 2.2rem); font-weight: bold; color: #dcdcdc; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px 2px #000; padding-bottom: 10px;}
 .header-link {text-decoration: none; color: inherit; display: block;}
 .sr-only {position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;}
