@@ -112,6 +112,22 @@ h1.header-title {
   font-weight: normal;
   margin-left: 5px;
 }
+.value.very-common {
+  color: #90ee90;
+  font-weight: bold;
+}
+.value.scarce {
+  color: #f0e68c;
+  font-weight: bold;
+}
+.value.rare {
+  color: #ffcc99;
+  font-weight: bold;
+}
+.value.extremely-rare {
+  color: #ff6666;
+  font-weight: bold;
+}
 .images-grid {
   display: flex;
   flex-wrap: wrap;
