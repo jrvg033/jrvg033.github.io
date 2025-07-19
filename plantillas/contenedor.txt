@@ -8,7 +8,7 @@
 
 <!-- SEO -->
   <title>Billetes del Banco de Aguascalientes / Billetes Mexicanos</title>
-  <meta name="description" content="Descubre los billetes emitido por el Gobierno Constitucionalista con información histórica y un catalogo visual de sus billetes.">
+  <meta name="description" content="Descubre los billetes emitidos por el Gobierno Constitucionalista, con información histórica y un catalogo visual de sus billetes.">
   <link rel="icon" type="image/png" href="https://billetesmexicanos.com/home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
 
@@ -21,24 +21,6 @@
 
 <!-- ESTILOS -->
   <link rel="stylesheet" href="/css/contenedor.css">
-
-<!-- SCRIPT -->
-  <script type="application/ld+json">
-  {"@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Billetes del Banco de Aguascalientes",
-  "description": "Catálogo visual de los billetes emitidos por El Banco de Aguascalientes.",
-  "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/",
-  "image": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/5-pesos/serie-b-anverso.webp",
-  "mainEntity": {
-    "@type": "ImageGallery",
-    "name": "Galería de billetes del Banco de Aguascalientes",
-    "url": "https://billetesmexicanos.com/bancos-comerciales/banco-aguascalientes/"},
-  "author": {
-    "@type": "Organization",
-    "name": "Billetes Mexicanos",
-    "url": "https://billetesmexicanos.com"}}
-  </script>
 
 </head>
 <body>
