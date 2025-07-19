@@ -244,11 +244,6 @@ footer.footer {
   .images-grid img {
     max-width: 100%;
   }
-  .info-table td {
-    display: block;
-    width: 100%;
-    padding: 8px;
-  }
   .label {
     width: 100%;
     font-weight: bold;
