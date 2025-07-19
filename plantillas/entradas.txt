@@ -152,7 +152,7 @@
   <a href="/revolucion-mexicana/">Revolución</a> |
   <a href="/banco-mexico/">Banco de México</a>
   </section>
-  <p style="margin-top: 10px;">2024-2025 &copy; Billetes Mexicanos</p>
+  <p>2024-2025 &copy; Billetes Mexicanos</p>
   </footer>
   
 <!-- CODIGO JS -->
