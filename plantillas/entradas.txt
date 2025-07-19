@@ -8,7 +8,7 @@
   
 <!-- SEO -->
   <title>Billete de 10 Pesos - El Banco de Aguascalientes / Billetes Mexicanos</title>
-  <meta name="description" content="Información detallada y galeria de imagenes sobre el billete de 10 pesos del Banco de Aguascalientes.">
+  <meta name="description" content="Descubre el billete de 1 peso emitido por la compañía minera ASARCO durante la Revolución Mexicana. Incluye imágenes detalladas y características del billete.">
   <link rel="icon" type="image/png" href="https://billetesmexicanos.com//home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
 
