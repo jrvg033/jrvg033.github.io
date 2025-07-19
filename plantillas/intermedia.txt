@@ -23,12 +23,18 @@
 <!-- ESTILOS -->
   <link rel="stylesheet" href="/css/intermedia.css">
     
+<!-- SCRIPT -->
   <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "CollectionPage",
-  "name": "Billetes del Imperio Mexicano (1823)",
-  "description": "Catálogo visual de los billetes emitidos durante el Imperio Mexicano de 1823.",
-  "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/",
-  "mainEntity": {"@type": "ImageGallery", "name": "Galería de billetes del Imperio Mexicano", "url": "https://billetesmexicanos.com/primeros-billetes/imperio-mexicano/"}}
+  {"@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Billetes de la compañia minera ASARCO",
+  "description": "Catálogo visual de los billetes emitidos por la compañia minera ASARCO.",
+  "url": "https://billetesmexicanos.com/bancos-comerciales/asarco/",
+  "image": "https://billetesmexicanos.com/bancos-comerciales/asarco/1-peso/anverso.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Billetes Mexicanos",
+    "url": "https://billetesmexicanos.com"}}
   </script>
 
 </head>
