@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#000">
-  <meta name="robots" content="index, follow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#000">
+<meta name="robots" content="index, follow">
 
 <!-- SEO -->
   <title>Billetes del Banco de Aguascalientes / Billetes Mexicanos</title>
   <meta name="description" content="Descubre los billetes emitidos por el Gobierno Constitucionalista, con información histórica y un catalogo visual de sus billetes.">
   <link rel="icon" type="image/png" href="https://billetesmexicanos.com/home/favicon.png">
-  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
+  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
 
 <!-- OPEN GRAPH -->
   <meta property="og:title" content="Billetes del Banco de Aguascalientes">
@@ -24,30 +24,21 @@
 
 <!-- SCRIPT -->
   <script type="application/ld+json">
-  {"@context": "https://schema.org",
-  "@type": "CollectionPage",
+  {"@context": "https://schema.org", "@type": "CollectionPage",
   "name": "Billetes de la compañia minera ASARCO",
   "description": "Catálogo visual de los billetes emitidos por la compañia minera ASARCO.",
   "url": "https://billetesmexicanos.com/bancos-comerciales/asarco/",
   "image": "https://billetesmexicanos.com/bancos-comerciales/asarco/1-peso/anverso.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Billetes Mexicanos",
-    "url": "https://billetesmexicanos.com"}}
+  "author": {"@type": "Organization", "name": "Billetes Mexicanos", "url": "https://billetesmexicanos.com"}}
   </script>
 
 </head>
 <body>
 
 <!-- CABECERA -->
-  <div class="sticky-header">
-  <a href="/" class="header-link" style="text-decoration: none; color: inherit;">
-  <div class="header-content">
+  <div class="sticky-header"><a href="/" class="header-link"><div class="header-content">
   <img src="/home/titulo-billetes-mexicanos.webp" alt="Encabezado del sitio billetes mexicanos" class="logo">
-  <p class="site-name">Billetes Mexicanos</p>
-  </div>
-  </a>
-  </div>
+  <p class="site-name">Billetes Mexicanos</p></div></a></div>
 
 <main class="container">
 
@@ -129,6 +120,8 @@
   <p style="margin-top: 10px;">2024-2025 &copy; Billetes Mexicanos</p>
   </footer>
 
+<!-- CODIGO JS -->
 <script src="/js/componentes.js"></script>
+
 </body>
 </html>
