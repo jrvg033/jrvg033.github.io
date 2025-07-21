@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#000">
-  <meta name="robots" content="index, follow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#000">
+<meta name="robots" content="index, follow">
 
 <!-- SEO -->
   <title>Primeros billetes emitidos en México / Billetes Mexicanos</title>
   <meta name="description" content="Catálogo visual de los primeros billetes que se emitieron en la historia de Mexico, desde Iturbide hasta Maximiliano.">
-  <meta name="author" content="Billetes Mexicanos">
-  <link rel="icon" type="image/png" href="/home/favicon.png">
-  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
+  <link rel="icon" type="image/png" https://billetesmexicanos.com/home/favicon.png">
+  <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
 
 <!-- OPEN GRAPH -->
   <meta property="og:title" content="Catálogo de Billetes Mexicanos">
@@ -25,30 +24,21 @@
     
 <!-- SCRIPT -->
   <script type="application/ld+json">
-  {"@context": "https://schema.org",
-  "@type": "CollectionPage",
+  {"@context": "https://schema.org", "@type": "CollectionPage",
   "name": "Billetes de la compañia minera ASARCO",
   "description": "Catálogo visual de los billetes emitidos por la compañia minera ASARCO.",
   "url": "https://billetesmexicanos.com/bancos-comerciales/asarco/",
   "image": "https://billetesmexicanos.com/bancos-comerciales/asarco/1-peso/anverso.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Billetes Mexicanos",
-    "url": "https://billetesmexicanos.com"}}
+  "author": {"@type": "Organization", "name": "Billetes Mexicanos", "url": "https://billetesmexicanos.com"}}
   </script>
 
 </head>
 <body>
 
 <!-- CABECERA -->
-  <div class="sticky-header">
-  <a href="/" class="header-link" style="text-decoration: none; color: inherit;">
-  <div class="header-content">
+  <div class="sticky-header"><a href="/" class="header-link"><div class="header-content">
   <img src="/home/titulo-billetes-mexicanos.webp" alt="Encabezado del sitio billetes mexicanos" class="logo">
-  <p class="site-name">Billetes Mexicanos</p>
-  </div>
-  </a>
-  </div>
+  <p class="site-name">Billetes Mexicanos</p></div></a></div>
 
 <main class="container">
 
@@ -58,13 +48,11 @@
     <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <a href="/" itemprop="item"><span itemprop="name">Inicio</span></a> ›
     <meta itemprop="position" content="1"></span>
-
     <!-- Breadcrumbs 2 -->
     <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <span itemprop="name">San Miguel el Grande</span>
     <meta itemprop="position" content="2"></span>
   </nav>
-  <hr>
   
 <!-- TITULO -->
   <h1 class="header-title">Primeros billetes de México (1813)</h1>
@@ -75,73 +63,78 @@
 
   <!-- SECCION 1 -->
   <section class="images-grid">
-  <h2><a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>
+  <h2><a href="/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>
     <!-- Imagen 1 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
     <!-- Imagen 2 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
     <!-- Imagen 3 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
   </section>
 
   <!-- SECCION 2 -->
   <section class="images-grid">
-  <h2><a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>      
+  <h2><a href="/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>      
     <!-- Imagen 1 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
     <!-- Imagen 2 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
     <!-- Imagen 3 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
   </section>
 
   <!-- SECCION 3 -->
   <section class="images-grid">
-  <h2><a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>      
+  <h2><a href="/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>      
     <!-- Imagen 1 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
       <!-- Imagen 2 -->  
-      <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+      <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
       <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
       <div class="caption">Medio real</div></a>
       <!-- Imagen 3 -->  
-      <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+      <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
       <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
       <div class="caption">Medio real</div></a>
   </section>
 
   <!-- SECCION 4 -->
   <section class="images-grid">
-  <h2><a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>
+  <h2><a href="/primeros-billetes/cartones-miguel-grande/">Cartones de San Miguel el Grande</a></h2>
     <!-- Imagen 1 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
     <!-- Imagen 2 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
     <!-- Imagen 3 -->  
-    <a href="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/">
+    <a href="/primeros-billetes/cartones-miguel-grande/medio-real/">
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
   </section>
+
+<!-- LOGO -->
+<div class="logo-final">
+  <img src="/home/footer-billetes-mexicanos.webp" alt="Footer Billetes Mexicanos" class="logo-footer">
+</div>
+
 </main>
-<hr>
 
 <!-- LOGO -->
 <div class="logo-final">
@@ -160,6 +153,9 @@
   </section>
   <p style="margin-top: 10px;">2024-2025 &copy; Billetes Mexicanos</p>
   </footer>
+
+<!-- CODIGO JS -->
 <script src="/js/componentes.js"></script>
+  
 </body>
 </html>
