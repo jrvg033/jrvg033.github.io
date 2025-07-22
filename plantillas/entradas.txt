@@ -24,12 +24,20 @@
 
 <!-- SCRIPT -->
   <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "CollectionPage",
-  "name": "Billetes de la compañia minera ASARCO",
-  "description": "Catálogo visual de los billetes emitidos por la compañia minera ASARCO.",
-  "url": "https://billetesmexicanos.com/bancos-comerciales/asarco/",
+  {"@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Billete de 1 Peso - ASARCO Compañia minera",
+  "description": "Catálogo visual del billete de 1 peso emitido por la compañia minera ASARCO.",
+  "url": "https://billetesmexicanos.com/bancos-comerciales/asarco/1-peso/",
   "image": "https://billetesmexicanos.com/bancos-comerciales/asarco/1-peso/anverso.webp",
-  "author": {"@type": "Organization", "name": "Billetes Mexicanos", "url": "https://billetesmexicanos.com"}}
+  "mainEntity": {
+    "@type": "ImageGallery",
+    "name": "Galería de billetes de 1 peso de ASARCO",
+    "url": "https://billetesmexicanos.com/bancos-comerciales/asarco/1-peso/"},
+  "author": {
+    "@type": "Organization",
+    "name": "Billetes Mexicanos",
+    "url": "https://billetesmexicanos.com"}}
   </script>
 
 </head>
