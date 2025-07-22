@@ -271,7 +271,7 @@ footer.footer {
     width: 28px;
   }
 }
-@media (hover:hover) {
+@media (hover: hover) {
   .images-grid a:hover img {
     transform: scale(1.05);
     border-color: #ccc;
