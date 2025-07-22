@@ -4,6 +4,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 main.container {
   padding: 15px;
@@ -37,7 +39,7 @@ main.container {
   text-shadow: 1px 1px 2px #000;
   margin: 0;
 }
-h1.header-title {
+.header-title {
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   font-weight: bold;
   color: #dcdcdc;
@@ -58,7 +60,6 @@ h1.header-title {
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 .images-grid {
@@ -142,17 +143,10 @@ footer.footer {
     flex-direction: column;
     align-items: center;
   }
-}
-@media (max-width: 600px) {
   .header-content h1 {
     font-size: 1.2em;
   }
   .header-content .logo {
     width: 28px;
   }
-}
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
 }
