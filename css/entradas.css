@@ -270,6 +270,14 @@ footer.footer {
   .header-content .logo {
     width: 28px;
   }
+  .lightbox img {
+    /* Permite que la imagen use casi todo el ancho y alto del viewport */
+    max-width: 95vw;   /* 95% del ancho del viewport */
+    max-height: 95vh;  /* 95% de la altura del viewport */
+    width: auto;       /* Asegura que la imagen no se estire */
+    height: auto;      /* Mantiene la proporción de aspecto */
+    object-fit: contain; /* Asegura que la imagen completa sea visible */
+  }
 }
 @media (hover: hover) {
   .images-grid img:hover {
