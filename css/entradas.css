@@ -272,7 +272,7 @@ footer.footer {
   }
 }
 @media (hover: hover) {
-  .images-grid a:hover img {
+  .images-grid img:hover {
     transform: scale(1.05);
     border-color: #ccc;
   }
