@@ -27,7 +27,7 @@ function initLightboxFunctionality() {
     let initialPinchDistance = null;
     let lastPinchScale = 1;
 
-    const DRAG_THRESHOLD = 5; // Recomiendo usar 5 para mayor fluidez, como discutimos antes.
+    const DRAG_THRESHOLD = 5; // Recomendado, 10 es un poco alto para "clic"
 
     function applyTransform() {
         lightboxImg.style.transform = `scale(${currentScale}) translate(${currentTranslateX}px, ${currentTranslateY}px)`;
@@ -62,7 +62,9 @@ function initLightboxFunctionality() {
 
     function handleZoomClick() {
         if (currentScale === 1) {
-            currentScale = window.innerWidth <= 600 ? 1.2 : 2; // Ajustado a 1.2x para móviles
+            // *** AQUÍ ESTÁ EL CAMBIO PRINCIPAL PARA MÁS ZOOM EN MÓVIL ***
+            // Antes era 1.5, ahora lo subimos a 2.0 (o el valor que prefieras)
+            currentScale = window.innerWidth <= 600 ? 2.0 : 2; // O 2.5, 3.0, etc.
             lightbox.classList.add('zoomed');
             lightboxImg.style.cursor = 'grab';
         } else {
@@ -249,7 +251,6 @@ function initLightboxFunctionality() {
         return Math.sqrt(dx * dx + dy * dy);
     }
 } // Fin de initLightboxFunctionality
-
 
 // ===========================================
 // Inicialización de todas las funcionalidades
