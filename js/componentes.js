@@ -260,8 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // initCommonNavigation();
     // setupGlobalSearch();
 
-    // Inicializa la funcionalidad del lightbox SOLAMENTE si el <body> tiene el ID 'pagina-entrada'
-    if (document.body.id === 'pagina-entrada') {
+    // Inicializa la funcionalidad del lightbox SOLAMENTE si el <body> tiene el ID 'entradas'
+    if (document.body.id === 'entradas') {
         initLightboxFunctionality();
     }
 });
