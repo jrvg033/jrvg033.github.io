@@ -64,7 +64,7 @@ function initLightboxFunctionality() {
         if (currentScale === 1) {
             // *** AQUÍ ESTÁ EL CAMBIO PRINCIPAL PARA MÁS ZOOM EN MÓVIL ***
             // Antes era 1.5, ahora lo subimos a 2.0 (o el valor que prefieras)
-            currentScale = window.innerWidth <= 600 ? 2.5 : 2; // Ahora con 2.5x de zoom inicial en móvil
+            currentScale = window.innerWidth <= 600 ? 3 : 2; // Ahora con 2.5x de zoom inicial en móvil
             lightbox.classList.add('zoomed');
             lightboxImg.style.cursor = 'grab';
         } else {
