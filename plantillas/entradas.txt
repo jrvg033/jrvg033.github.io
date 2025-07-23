@@ -41,7 +41,7 @@
   </script>
 
 </head>
-<body>
+<body id="entradaS">
 
 <!-- CABECERA -->
   <div class="sticky-header"><a href="/" class="header-link"><div class="header-content">
