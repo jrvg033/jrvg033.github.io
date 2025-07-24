@@ -188,6 +188,7 @@ footer.footer {
   background: rgba(0, 0, 0, 0.9);
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Oculta las barras de desplazamiento del contenedor */
 }
 .lightbox.active {
   display: flex;
@@ -196,7 +197,11 @@ footer.footer {
   max-width: 90%;
   max-height: 80%;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-  cursor: zoom-out;
+  cursor: zoom-in;
+  transform-origin: center center; /* Origen del zoom */
+}
+.lightbox.zoomed img {
+  cursor: grab; /* Cambia el cursor cuando hay zoom para indicar que se puede arrastrar */
 }
 .lightbox-close {
   position: absolute;
@@ -277,6 +282,13 @@ footer.footer {
     width: auto;       /* Asegura que la imagen no se estire */
     height: auto;      /* Mantiene la proporción de aspecto */
     object-fit: contain; /* Asegura que la imagen completa sea visible */
+    transform: scale(1); /* Asegura que el zoom inicial sea 1x */
+    transition: transform 0.2s ease-in-out;
+  }
+  /* Estilo cuando el lightbox tiene zoom en móvil */
+  .lightbox.zoomed img {
+    max-width: none; /* Permite que la imagen exceda el 100% del ancho */
+    max-height: none; /* Permite que la imagen exceda el 100% de la altura */
   }
 }
 @media (hover: hover) {
