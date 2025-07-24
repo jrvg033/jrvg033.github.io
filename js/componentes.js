@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const centerY = rect.height / 2;
 
     if (currentScale === 1) {
-      currentScale = window.innerWidth <= 600 ? 1.5 : 2;
+      currentScale = window.innerWidth <= 600 ? 3 : 2;
       lightbox.classList.add('zoomed');
       lightboxImg.style.cursor = 'grab';
 
