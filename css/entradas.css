@@ -277,10 +277,10 @@ footer.footer {
   }
   .lightbox img {
     /* Permite que la imagen use casi todo el ancho y alto del viewport */
-    max-width: 95vw;   /* 95% del ancho del viewport */
-    max-height: 95vh;  /* 95% de la altura del viewport */
-    width: auto;       /* Asegura que la imagen no se estire */
-    height: auto;      /* Mantiene la proporción de aspecto */
+    max-width: 95vw; /* 95% del ancho del viewport */
+    max-height: 95vh; /* 95% de la altura del viewport */
+    width: auto; /* Asegura que la imagen no se estire */
+    height: auto; /* Mantiene la proporción de aspecto */
     object-fit: contain; /* Asegura que la imagen completa sea visible */
     transform: scale(1); /* Asegura que el zoom inicial sea 1x */
     transition: transform 0.2s ease-in-out;
