@@ -283,7 +283,6 @@ footer.footer {
     height: auto; /* Mantiene la proporción de aspecto */
     object-fit: contain; /* Asegura que la imagen completa sea visible */
     transform: scale(1); /* Asegura que el zoom inicial sea 1x */
-    transition: transform 0.2s ease-in-out;
   }
   /* Estilo cuando el lightbox tiene zoom en móvil */
   .lightbox.zoomed img {
