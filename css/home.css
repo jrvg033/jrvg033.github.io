@@ -1,14 +1,22 @@
+:root {
+  --bg-dark: #121212;
+  --text-light: #f0f0f0;
+  --text-secondary: #cccccc;
+  --accent: #7a9550;
+  --accent-soft: #8fa77b;
+  --radius: 8px;
+}
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: "Inter", "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
 }
 main.container {
-  padding: 15px;
+  padding: 30px 20px;
   max-width: 1000px;
   margin: auto;
 }
@@ -16,9 +24,9 @@ main.container {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #3e4e2f;
+  background-color: #1c1c1c;
   padding: 10px 15px;
-  border-bottom: 1px solid #6a7e4b;
+  border-bottom: 1px solid #2a2a2a;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .header-content {
@@ -34,15 +42,15 @@ main.container {
 }
 .header-content .site-name {
   font-size: 1.5em;
-  color: #e0ffe0;
-  font-weight: bold;
+  color: var(--accent-soft);
+  font-weight: 600;
   text-shadow: 1px 1px 2px #000;
   margin: 0;
 }
 .header-title {
   font-size: clamp(1.5rem, 5vw, 2.2rem);
-  font-weight: bold;
-  color: #dcdcdc;
+  font-weight: 700;
+  color: var(--text-light);
   text-align: center;
   margin-bottom: 20px;
   text-shadow: 1px 1px 2px #000;
@@ -61,12 +69,14 @@ main.container {
   padding: 0;
   overflow: hidden;
   border: 0;
+  white-space: nowrap;
 }
 .images-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .images-grid a {
   text-decoration: none;
@@ -78,9 +88,10 @@ main.container {
   max-width: 90vw;
   height: auto;
   cursor: pointer;
-  border: 2px solid #999;
-  border-radius: 6px;
-  transition: transform 0.2s ease;
+  border: 2px solid #666;
+  border-radius: var(--radius);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  object-fit: contain;
 }
 .images-grid a:hover img {
   transform: scale(1.05);
@@ -90,6 +101,7 @@ main.container {
   margin-top: 5px;
   font-size: 0.95em;
   text-align: center;
+  color: var(--text-secondary);
 }
 .logo-final {
   text-align: center;
@@ -102,15 +114,16 @@ main.container {
   opacity: 0.9;
 }
 footer.footer {
-  background-color: #222;
-  color: #fff;
+  background-color: #1a1a1a;
+  color: var(--text-light);
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
+  margin-top: 30px;
 }
 .footer a {
-  color: #dcdcdc;
+  color: var(--accent-soft);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0 5px;
 }
 .footer a:hover {
@@ -120,22 +133,23 @@ footer.footer {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
   justify-content: center;
   padding: 10px 0;
 }
 .footer-links a {
-  background-color: #667f3f;
-  color: #fff;
-  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid var(--accent-soft);
+  color: var(--accent-soft);
+  padding: 6px 14px;
   text-decoration: none;
-  font-size: 0.9em;
-  border-radius: 6px;
+  font-size: 0.95em;
+  border-radius: var(--radius);
   transition: background-color 0.3s ease, transform 0.2s ease;
-  border: 1px solid #8fa77b;
 }
 .footer-links a:hover {
-  background-color: #7a9550;
+  background-color: var(--accent-soft);
+  color: #000;
   transform: scale(1.05);
 }
 @media (max-width: 600px) {
