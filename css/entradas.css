@@ -1,32 +1,38 @@
+:root {
+  --bg-dark: #121212;
+  --text-light: #f0f0f0;
+  --text-secondary: #f0f0f0;
+  --accent: #7a9550;
+  --accent-soft: #8fa77b;
+  --radius: 8px;
+}
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: "Inter", "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
 }
 .container {
-  padding: 15px;
+  padding: 30px 20px;
   max-width: 1000px;
   margin: auto;
 }
 .header-content .site-name {
   font-size: 1.5em;
-  color: #e0ffe0;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px #000;
+  color: var(--accent-soft);
+  font-weight: 600;
   margin: 0;
 }
 .sticky-header {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #3e4e2f;
+  background-color: #1c1c1c;
   padding: 10px 15px;
-  border-bottom: 1px solid #6a7e4b;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #2a2a2a;
 }
 .header-content {
   display: flex;
@@ -46,21 +52,19 @@ body {
 }
 .header-title {
   font-size: 2.2em;
-  font-weight: bold;
-  color: #dcdcdc;
+  font-weight: 700;
+  color: var(--text-light);
   text-align: center;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 2px #000;
   padding-bottom: 10px;
 }
 .breadcrumbs {
-  background-color: #333;
+  background-color: #222;
   padding: 10px 15px;
-  border-radius: 6px;
-  color: #fff;
+  border-radius: var(--radius);
 }
 .breadcrumbs a {
-  color: #dcdcdc;
+  color: var(--text-light);
   text-decoration: none;
 }
 .breadcrumbs span {
@@ -68,11 +72,9 @@ body {
 }
 .section-title {
   font-size: 1.5em;
-  color: #e0ffe0;
+  color: var(--accent-soft);
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  text-shadow: 1px 1px 2px #000;
+  margin: 30px 0 15px;
   position: relative;
 }
 .section-title::after {
@@ -80,41 +82,43 @@ body {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #7a9550;
+  background-color: var(--accent);
   margin: 10px auto 0;
   border-radius: 2px;
 }
 .data-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 30px;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 .item {
-  background-color: #445529;
-  padding: 10px;
-  border-radius: 6px;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: var(--radius);
   text-align: center;
+  border: 1px solid #2a2a2a;
 }
-.label,
-.value {
+.label {
+  color: var(--accent);
+  font-weight: 600;
   display: inline;
-  font-weight: bold;
-  color: #e0ffe0;
 }
 .value {
-  font-weight: normal;
+  color: var(--text-light);
+  font-weight: 400;
   margin-left: 5px;
+  display: inline;
 }
 .images-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .images-grid img {
   width: 100%;
@@ -124,48 +128,46 @@ body {
   display: block;
 }
 .note-title {
-  font-size: 1.3em;
-  font-weight: bold;
-  color: #e0ffe0;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--text-light);
   margin-bottom: 20px;
   text-align: center;
 }
 footer.footer {
-  background-color: #222;
-  color: #fff;
+  background-color: #1a1a1a;
+  color: var(--text-light);
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 .footer a {
-  color: #dcdcdc;
+  color: var(--accent-soft);
   text-decoration: none;
-  font-weight: bold;
-  margin: 0 5px;
+  font-weight: 600;
+  margin: 0 6px;
 }
 .footer a:hover {
-  color: #ffffff;
   text-decoration: underline;
 }
 .footer-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
   justify-content: center;
   padding: 10px 0;
 }
 .footer-links a {
-  background-color: #667f3f;
-  color: #fff;
-  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid var(--accent-soft);
+  color: var(--accent-soft);
+  padding: 6px 14px;
   text-decoration: none;
-  font-size: 0.9em;
-  border-radius: 6px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  border: 1px solid #8fa77b;
+  font-size: 0.95em;
+  border-radius: var(--radius);
 }
 .footer-links a:hover {
-  background-color: #7a9550;
-  transform: scale(1.05);
+  background-color: var(--accent-soft);
+  color: #000;
 }
 .logo-final {
   text-align: center;
@@ -185,10 +187,10 @@ footer.footer {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.95);
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Oculta las barras de desplazamiento del contenedor */
+  overflow: hidden;
 }
 .lightbox.active {
   display: flex;
@@ -196,12 +198,12 @@ footer.footer {
 .lightbox img {
   max-width: 90%;
   max-height: 80%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   cursor: zoom-in;
-  transform-origin: center center; /* Origen del zoom */
+  transform-origin: center center;
 }
 .lightbox.zoomed img {
-  cursor: grab; /* Cambia el cursor cuando hay zoom para indicar que se puede arrastrar */
+  cursor: grab;
 }
 .lightbox-close {
   position: absolute;
@@ -218,15 +220,12 @@ footer.footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-  transition: all 0.2s ease-in-out;
   z-index: 1001;
   user-select: none;
 }
 .lightbox-close:hover {
   background-color: #f44336;
   color: #fff;
-  transform: scale(1.1);
 }
 .sr-only {
   position: absolute;
@@ -250,15 +249,15 @@ footer.footer {
     font-size: 1em;
   }
   .container {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .images-grid img {
     max-width: 100%;
   }
   .label {
     width: 100%;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 5px;
   }
   .item {
@@ -276,18 +275,16 @@ footer.footer {
     width: 28px;
   }
   .lightbox img {
-    /* Permite que la imagen use casi todo el ancho y alto del viewport */
-    max-width: 95vw; /* 95% del ancho del viewport */
-    max-height: 95vh; /* 95% de la altura del viewport */
-    width: auto; /* Asegura que la imagen no se estire */
-    height: auto; /* Mantiene la proporción de aspecto */
-    object-fit: contain; /* Asegura que la imagen completa sea visible */
-    transform: scale(1); /* Asegura que el zoom inicial sea 1x */
+    max-width: 95vw;
+    max-height: 95vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transform: scale(1);
   }
-  /* Estilo cuando el lightbox tiene zoom en móvil */
   .lightbox.zoomed img {
-    max-width: none; /* Permite que la imagen exceda el 100% del ancho */
-    max-height: none; /* Permite que la imagen exceda el 100% de la altura */
+    max-width: none;
+    max-height: none;
   }
 }
 @media (hover: hover) {
