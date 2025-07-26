@@ -12,6 +12,7 @@
   <meta name="author" content="Billetes Mexicanos">
   <link rel="icon" type="image/png" href="/home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png"> <!-- URL COMPLETA -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
 <!-- OPEN GRAPH -->
   <meta property="og:title" content="Catálogo de Billetes Mexicanos">
