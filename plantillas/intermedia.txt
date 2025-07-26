@@ -11,6 +11,7 @@
   <meta name="description" content="Catálogo visual de los primeros billetes que se emitieron en la historia de Mexico, desde Iturbide hasta Maximiliano.">
   <link rel="icon" type="image/png" https://billetesmexicanos.com/home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
 <!-- OPEN GRAPH -->
   <meta property="og:title" content="Catálogo de Billetes Mexicanos">
