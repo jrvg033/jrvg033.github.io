@@ -101,7 +101,7 @@
     <div class="caption">1000 Pesos</div></a>
   </section>
 </main>
-<hr>
+<hr class="small-hr">
 
 <!-- LOGO -->
 <div class="logo-final">
