@@ -147,6 +147,11 @@ nav.breadcrumbs span {
   font-size: 0.9em;
   color: var(--text-secondary);
 }
+.small-hr {
+  width: 60%;
+  margin: 15px auto;
+  border: 1px solid var(--accent);
+}
 .logo-final {
   text-align: center;
   margin-top: 40px;
