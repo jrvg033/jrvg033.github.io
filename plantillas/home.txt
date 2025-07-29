@@ -94,7 +94,7 @@
     <div class="caption">Emisiones especiales</div></a>
 
   </section>
-<hr>
+<hr class="small-hr">
 
 <!-- LOGO -->
 <div class="logo-final">
