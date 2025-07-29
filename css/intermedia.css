@@ -343,6 +343,10 @@ footer.footer {
     word-wrap: break-word;
     box-sizing: border-box;
   }
+  .punto {
+    font-size: 1em;
+    transform: translate(-50%, -50%) scale(0.8); /* reduce visualmente el tamaño */
+  }
 }
 @media (hover: hover) {
   .images-grid a:hover img {
