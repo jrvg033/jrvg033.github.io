@@ -129,7 +129,7 @@ nav.breadcrumbs a {
 .punto {
   position: absolute;
   color: #ff0;
-  font-size: 1.4em;
+  font-size: 1.2em;
   cursor: pointer;
   transform: translate(-50%, -50%);
   z-index: 2;
