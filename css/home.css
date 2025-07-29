@@ -107,6 +107,11 @@ p.site-name {
   text-align: center;
   color: var(--text-secondary);
 }
+.small-hr {
+  width: 60%;
+  margin: 15px auto;
+  border: 1px solid var(--accent);
+}
 .logo-final {
   text-align: center;
   margin-top: 40px;
