@@ -241,6 +241,11 @@ nav.breadcrumbs a {
   color: var(--accent-gold);
   text-decoration: underline;
 }
+.small-hr {
+  width: 60%;
+  margin: 15px auto;
+  border: 1px solid var(--accent);
+}
 .logo-final {
   text-align: center;
   margin-top: 40px;
