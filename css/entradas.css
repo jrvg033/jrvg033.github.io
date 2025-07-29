@@ -139,6 +139,11 @@ p.site-name {
   margin-bottom: 20px;
   text-align: center;
 }
+.small-hr {
+  width: 60%;
+  margin: 15px auto;
+  border: 1px solid var(--accent);
+}
 footer.footer {
   background-color: #1a1a1a;
   color: var(--text-light);
