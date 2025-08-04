@@ -102,11 +102,17 @@
 </div>
 
 </main>
-   
+
 <!-- FOOTER -->
   <footer class="footer">
+  <p>
+  <a href="/legal/">Apartado legal</a> |
+  <a href="/acerca/">Acerca del Sitio</a>
+  </p>
   <p>2024-2025 &copy; Billetes Mexicanos</p>
   </footer>
+
   <script src="/js/componentes.js"></script>
 </body>
 </html>
+
