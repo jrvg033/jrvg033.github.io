@@ -118,10 +118,8 @@
   <a href="/revolucion-mexicana/">Revolución</a>
   <a href="/banco-mexico/">Banco de México</a>
   </section>
-  <p>
-  <a href="/legal/">Apartado legal</a> |
-  <a href="/acerca/">Acerca del Sitio</a>
-  </p>
+  <p><a href="/legal/">Apartado legal</a> |
+  <a href="/acerca/">Acerca del Sitio</a></p>
   <p>2024-2025 &copy; Billetes Mexicanos</p>
   </footer>
 
@@ -130,4 +128,3 @@
 
 </body>
 </html>
-
