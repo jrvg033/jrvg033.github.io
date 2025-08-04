@@ -146,14 +146,18 @@
 <!-- FOOTER -->
   <footer class="footer">
   <section class="footer-links">
-  <h2 class="sr-only">Enlaces del pie de página</h2>   
-  <a href="/">Inicio</a> |
-  <a href="/primeros-billetes/">Primeros Billetes</a> |
-  <a href="/bancos-comerciales/">Bancos Comerciales</a> |
-  <a href="/revolucion-mexicana/">Revolución</a> |
+  <h2 class="sr-only">Enlaces del pie de página</h2>        
+  <a href="/">Inicio</a>
+  <a href="/primeros-billetes/">Primeros Billetes</a>
+  <a href="/bancos-comerciales/">Bancos Comerciales</a>
+  <a href="/revolucion-mexicana/">Revolución</a>
   <a href="/banco-mexico/">Banco de México</a>
   </section>
-  <p style="margin-top: 10px;">2024-2025 &copy; Billetes Mexicanos</p>
+  <p>
+  <a href="/legal/">Apartado legal</a> |
+  <a href="/acerca/">Acerca del Sitio</a>
+  </p>
+  <p>2024-2025 &copy; Billetes Mexicanos</p>
   </footer>
 
 <!-- CODIGO JS -->
@@ -161,3 +165,4 @@
   
 </body>
 </html>
+
