@@ -161,7 +161,6 @@
   <a href="/revolucion-mexicana/">Revolución</a> |
   <a href="/banco-mexico/">Banco de México</a>
   </section>
-  <hr class="small-hr">
   <p>
   <a href="/legal/">Apartado legal</a> |
   <a href="/acerca/">Acerca del Sitio</a>
@@ -174,5 +173,6 @@
   
 </body>
 </html>
+
 
 
