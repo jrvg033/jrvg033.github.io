@@ -342,6 +342,9 @@ footer.footer {
   .header-content .logo {
     width: 28px;
   }
+  .header-content .site-name {
+    font-size: 1.2em;
+  }
   .popup {
     max-width: 90vw;
     white-space: normal;
