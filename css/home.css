@@ -172,4 +172,7 @@ footer.footer {
   .header-content .logo {
     width: 28px;
   }
+  .header-content .site-name {
+    font-size: 1.2em;
+  }
 }
