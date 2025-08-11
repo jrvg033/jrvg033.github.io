@@ -231,6 +231,9 @@ footer.footer {
   .header-content .logo {
     width: 28px;
   }
+  .header-content .site-name {
+    font-size: 1.2em;
+  }
   p {
     font-size: 0.95em;
     line-height: 1.4em;
