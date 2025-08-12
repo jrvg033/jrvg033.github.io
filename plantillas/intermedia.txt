@@ -129,14 +129,8 @@
     <img loading="lazy" src="https://billetesmexicanos.com/primeros-billetes/cartones-miguel-grande/medio-real/San-Miguel-Grande-1.webp" alt="1 Peso - Anverso">
     <div class="caption">Medio real</div></a>
   </section>
+  </main>
   <hr class="small-hr">
-
-<!-- LOGO -->
-<div class="logo-final">
-  <img src="/home/footer-billetes-mexicanos.webp" alt="Footer Billetes Mexicanos" class="logo-footer">
-</div>
-
-</main>
 
 <!-- LOGO -->
 <div class="logo-final">
@@ -163,3 +157,4 @@
   
 </body>
 </html>
+
