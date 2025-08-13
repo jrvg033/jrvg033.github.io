@@ -65,6 +65,13 @@ p.site-name {
   color: inherit;
   display: block;
 }
+.intro-text {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  font-size: 1em;
+  color: var(--text-secondary);
+}
 .sr-only {
   position: absolute;
   width: 1px;
