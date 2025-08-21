@@ -118,6 +118,22 @@ p.site-name {
   margin-left: 5px;
   display: inline;
 }
+.value.very-common {
+  color: #4CAF50; /* verde */
+  font-weight: 600;
+}
+.value.scarce {
+  color: #FFD700; /* amarillo dorado */
+  font-weight: 600;
+}
+.value.rare {
+  color: #FF9800; /* naranja */
+  font-weight: 600;
+}
+.value.extremely-rare {
+  color: #FF4C4C; /* rojo */
+  font-weight: 700;
+}
 .images-grid {
   display: flex;
   flex-wrap: wrap;
