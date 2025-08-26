@@ -79,7 +79,7 @@
   <h2 class="section-title">Características del Billete</h2>
     <div class="item"><span class="label">Época:</span><span class="value">Independencia de México (1810-1821) - Primer Imperio Mexicano (1821-1823) - Primera República Federal (1823-1835) - República Centralista (1835-1846) - Segunda República Federal (1846-1863) - Segunda Imperio Mexicano (1863-1867) - República Restaurada (1867-1876) - Porfiriato (1876-1910) - Revolución Mexicana (1910-1920) - Posrevolución (1920-1940) - Siglo XX (1940-2000) - Contemporánea (2000-actualidad)</span></div>
     <div class="item"><span class="label">Años:</span><span class="value">1902-1910</span></div>
-    <div class="item"><span class="label">Tipo:</span><span class="value">Circulación normal - Circulación normal (local) - Emergencia - Prueba - Emisión especial</span></div>
+    <div class="item"><span class="label">Tipo:</span><span class="value">Circulación normal - Circulación normal (local) - Emisión de emergencia - Prueba - Emisión especial</span></div>
     <div class="item"><span class="label">Estado:</span><span class="value">En circulación - En proceso de retiro - Desmonetizado</span></div>
     <div class="item"><span class="label">Material:</span><span class="value">Papel - Polímero</span></div>
     <div class="item"><span class="label">Rareza:</span><!-- PONER AQUI --></div>
@@ -171,3 +171,4 @@
   
 </body>
 </html>
+
