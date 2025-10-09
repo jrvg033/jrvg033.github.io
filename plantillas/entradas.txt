@@ -8,7 +8,7 @@
   
 <!-- SEO -->
   <title>Billete de 10 Pesos - El Banco de Aguascalientes / Billetes Mexicanos</title>
-  <meta name="description" content="Descubre el billete de 10 centavos emitido por el Gobierno Constitucionalista, con imágenes detalladas y características del billete.">
+  <meta name="description" content="Descubre el billete de [VALOR] de [BANCO/EMISOR]: características, diseño e imágenes de esta pieza numismática de México.">
   <link rel="icon" type="image/png" href="https://billetesmexicanos.com/home/favicon.png">
   <link rel="apple-touch-icon" href="https://billetesmexicanos.com/home/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -171,4 +171,5 @@
   
 </body>
 </html>
+
 
