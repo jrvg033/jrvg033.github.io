@@ -176,6 +176,12 @@ p.site-name {
   margin-top: 8px;
 }
 
+article {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer.footer {
   background-color: #1a1a1a;
   color: var(--text-light);
