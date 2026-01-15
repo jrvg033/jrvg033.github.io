@@ -158,9 +158,8 @@ p.site-name {
 }
 
 .article-image {
+  max-width: 420px;
   margin: 30px auto;
-  text-align: center;
-  max-width: 600px;
 }
 
 .article-image img {
@@ -338,6 +337,10 @@ footer.footer {
     width: 28px;
   }
 
+ .article-image {
+    max-width: 95%;
+  }
+  
   .lightbox img {
     max-width: 95vw;
     max-height: 95vh;
