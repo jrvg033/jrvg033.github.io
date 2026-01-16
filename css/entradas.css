@@ -356,9 +356,9 @@ footer.footer {
     max-width: 95%;
   }
 
-  .billetes-grid {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 300px;
+ .billetes-grid {
+    grid-template-columns: 1fr;
+    max-width: 280px;
   }
   
   .lightbox img {
