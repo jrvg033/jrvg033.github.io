@@ -176,6 +176,20 @@ p.site-name {
   text-align: center;
 }
 
+.billetes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-width: 360px;
+  margin: 30px auto;
+}
+
+.billetes-grid img {
+  width: 100%;
+  height: auto;
+}
+
+
 article {
   max-width: 720px;
   margin-left: auto;
@@ -340,6 +354,11 @@ footer.footer {
 
  .article-image {
     max-width: 95%;
+  }
+
+  .billetes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 300px;
   }
   
   .lightbox img {
