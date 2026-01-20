@@ -189,7 +189,6 @@ p.site-name {
   height: auto;
 }
 
-
 article {
   max-width: 720px;
   margin-left: auto;
@@ -313,6 +312,41 @@ footer.footer {
   white-space: nowrap;
 }
 
+.bloque-historico {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 1.5rem;
+  margin: 3rem 0;
+  color: #f2f2f2;
+}
+
+.bloque-historico::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.bloque-historico .contenido {
+  position: relative;
+  max-width: 720px;
+}
+
+.bloque-historico h2 {
+  margin-bottom: 1rem;
+}
+
+.bloque-historico p {
+  line-height: 1.6;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 600px) {
   .header-title {
     font-size: 1.6em;
@@ -352,15 +386,15 @@ footer.footer {
     width: 28px;
   }
 
- .article-image {
+  .article-image {
     max-width: 95%;
   }
 
- .billetes-grid {
+  .billetes-grid {
     grid-template-columns: 1fr;
     max-width: 280px;
   }
-  
+
   .lightbox img {
     max-width: 95vw;
     max-height: 95vh;
