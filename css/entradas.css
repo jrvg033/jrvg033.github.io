@@ -347,6 +347,32 @@ footer.footer {
   background-position: center;
 }
 
+.bloque-historico h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bloque-historico h2 a:hover {
+  text-decoration: underline;
+}
+
+.btn-ver-mas {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+
+.btn-ver-mas:hover {
+  background-color: #f2f2f2;
+  color: #121212;
+}
+
 @media (max-width: 600px) {
   .header-title {
     font-size: 1.6em;
